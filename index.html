@@ -154,6 +154,48 @@
         .prices-status.warn .status-dot { background: var(--warning); }
         .prices-status.error .status-dot { background: var(--danger); }
 
+        /* NUEVOS ESTILOS PARA LOS FILTROS DE SUPERMERCADOS */
+        .filters-container {
+            margin-bottom: 12px;
+            background: #fafafa;
+            padding: 10px 12px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+        .filters-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+            color: var(--text);
+        }
+        .filter-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .filter-chip {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: white;
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s;
+            color: var(--text-muted);
+        }
+        .filter-chip.active {
+            background: var(--primary-light);
+            border-color: var(--primary);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .filter-chip input { display: none; } /* Ocultamos el checkbox real */
+
         .config-panel {
             background: #fafafa;
             border: 1px solid var(--border);
@@ -289,6 +331,14 @@
                 <button class="btn-secondary btn-small" id="config-prices-btn" title="Configurar URL">⚙️</button>
             </div>
 
+            <!-- NUEVO CONTENEDOR DE FILTROS DE SUPERMERCADOS -->
+            <div class="filters-container" id="filters-container" style="display: none;">
+                <span class="filters-title">Selecciona tus supermercados:</span>
+                <div class="filter-chips" id="supermarket-filters">
+                    <!-- Los filtros se generan con JS -->
+                </div>
+            </div>
+
             <div class="config-panel" id="config-panel" style="display: none;">
                 <label for="prices-url-input">URL del archivo de precios (precios.json)</label>
                 <input type="url" id="prices-url-input" placeholder="https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json" inputmode="url" autocomplete="off">
@@ -309,12 +359,13 @@
 
     <script>
         // ============================================================
-        // 1. CONFIGURACIÓN Y ESTADO DE LOS PRECIOS
+        // 1. CONFIGURACIÓN Y ESTADO
         // ============================================================
         const DEFAULT_PRECIOS_URL = 'https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json';
         const STORAGE_KEY_LIST = 'mi_compra_inteligente_items_v1';
         const STORAGE_KEY_URL = 'mi_compra_precios_url_v1';
         const STORAGE_KEY_CACHE = 'mi_compra_precios_cache_v1';
+        const STORAGE_KEY_STORES = 'mi_compra_stores_selected_v1'; // NUEVO: Guarda los súpers elegidos
 
         const FALLBACK_DATA = [
             { store: 'Mercadona', product: 'Leche entera Hacendado 1L', price: 0.95, unit: '1 L' },
@@ -323,10 +374,11 @@
         ];
 
         let PRICE_DATA = [];
+        let selectedStores = []; // NUEVO: Array con los supermercados activos
         let loadingPrices = false;
 
         // ============================================================
-        // 2. CARGA DE PRECIOS
+        // 2. CARGA DE PRECIOS Y FILTROS
         // ============================================================
         function getConfiguredUrl() {
             return localStorage.getItem(STORAGE_KEY_URL) || DEFAULT_PRECIOS_URL;
@@ -365,6 +417,7 @@
                     PRICE_DATA = FALLBACK_DATA;
                     setStatus('warn', `Usando datos de ejemplo. Configura la URL con ⚙️`);
                 }
+                initFilters(); // Inicializar filtros
                 loadingPrices = false;
                 return;
             }
@@ -392,6 +445,7 @@
                 } catch (e) { /* localStorage lleno */ }
 
                 setStatus('ok', `Precios actualizados: ${PRICE_DATA.length} productos · ${formatFecha(ts)}`);
+                initFilters(); // Inicializar filtros tras cargar
             } catch (error) {
                 console.warn('Error cargando precios remotos:', error);
                 const cached = tryLoadCache();
@@ -402,6 +456,7 @@
                     PRICE_DATA = FALLBACK_DATA;
                     setStatus('error', `Error cargando precios. Usando datos de ejemplo.`);
                 }
+                initFilters();
             } finally {
                 loadingPrices = false;
             }
@@ -417,6 +472,77 @@
             } catch (e) {
                 return null;
             }
+        }
+
+        // --- LÓGICA DE LOS FILTROS DE SUPERMERCADOS ---
+        function initFilters() {
+            // Extraer supermercados únicos de los datos
+            const allStores = [...new Set(PRICE_DATA.map(item => item.store))].sort();
+            
+            if (allStores.length === 0) {
+                document.getElementById('filters-container').style.display = 'none';
+                return;
+            }
+
+            // Recuperar la selección guardada
+            const saved = localStorage.getItem(STORAGE_KEY_STORES);
+            if (saved) {
+                try {
+                    const parsed = JSON.parse(saved);
+                    // Asegurarnos de que los supermercados guardados todavía existen en los datos
+                    selectedStores = parsed.filter(s => allStores.includes(s));
+                } catch(e) { selectedStores = []; }
+            }
+
+            // Si no hay nada guardado o la lista quedó vacía, seleccionamos todos por defecto
+            if (selectedStores.length === 0) {
+                selectedStores = [...allStores];
+                saveSelectedStores();
+            }
+
+            renderFilterChips(allStores);
+            document.getElementById('filters-container').style.display = 'block';
+        }
+
+        function renderFilterChips(allStores) {
+            const container = document.getElementById('supermarket-filters');
+            container.innerHTML = '';
+
+            allStores.forEach(store => {
+                const isActive = selectedStores.includes(store);
+                const label = document.createElement('label');
+                label.className = `filter-chip ${isActive ? 'active' : ''}`;
+                label.innerHTML = `
+                    <input type="checkbox" value="${store}" ${isActive ? 'checked' : ''}>
+                    ${escapeHtml(store)}
+                `;
+                
+                // Evento para cuando el usuario toca un filtro
+                label.addEventListener('change', (e) => {
+                    const checked = e.target.checked;
+                    if (checked) {
+                        if (!selectedStores.includes(store)) selectedStores.push(store);
+                    } else {
+                        selectedStores = selectedStores.filter(s => s !== store);
+                    }
+                    
+                    // Actualizar la clase visual del chip
+                    if (checked) label.classList.add('active');
+                    else label.classList.remove('active');
+
+                    saveSelectedStores();
+                    
+                    // Si ya había una búsqueda en pantalla, refrescar los resultados
+                    const q = document.getElementById('search-input').value.trim();
+                    if (q) renderComparisonResults(searchPrices(q), q);
+                });
+
+                container.appendChild(label);
+            });
+        }
+
+        function saveSelectedStores() {
+            localStorage.setItem(STORAGE_KEY_STORES, JSON.stringify(selectedStores));
         }
 
         // ============================================================
@@ -530,14 +656,16 @@
         });
 
         // ============================================================
-        // 4. COMPARADOR
+        // 4. COMPARADOR (AHORA CON FILTRO)
         // ============================================================
         function searchPrices(query) {
             const q = query.toLowerCase().trim();
             if (!q) return [];
+            
+            // Filtramos por texto Y por los supermercados seleccionados
             return PRICE_DATA.filter(item =>
-                item.product.toLowerCase().includes(q) ||
-                item.store.toLowerCase().includes(q)
+                (item.product.toLowerCase().includes(q) || item.store.toLowerCase().includes(q)) &&
+                selectedStores.includes(item.store)
             );
         }
 
@@ -549,8 +677,13 @@
                 return;
             }
 
+            if (selectedStores.length === 0) {
+                container.innerHTML = `<div class="empty-state">Has desactivado todos los supermercados. Activa alguno en los filtros de arriba.</div>`;
+                return;
+            }
+
             if (results.length === 0) {
-                container.innerHTML = `<div class="empty-state">No hay resultados para "<strong>${escapeHtml(query)}</strong>".</div>`;
+                container.innerHTML = `<div class="empty-state">No hay resultados para "<strong>${escapeHtml(query)}</strong>" en tus supermercados seleccionados.</div>`;
                 return;
             }
 
@@ -681,19 +814,14 @@
         });
 
         // ============================================================
-        // 7. INICIALIZACIÓN Y SERVICE WORKER
+        // 7. INICIALIZACIÓN
         // ============================================================
         loadItems();
         loadPrices();
 
-        // REGISTRO DEL SERVICE WORKER PARA QUE SEA INSTALABLE
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js').then(registration => {
-                    console.log('ServiceWorker registrado con éxito:', registration.scope);
-                }).catch(error => {
-                    console.log('Fallo al registrar el ServiceWorker:', error);
-                });
+                navigator.serviceWorker.register('sw.js').catch(err => console.log('SW error:', err));
             });
         }
     </script>
