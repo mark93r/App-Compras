@@ -6,33 +6,34 @@ from supermercapy import search_all
 # ============================================================
 # CONFIGURACIÓN
 # ============================================================
-# Lista de productos que quieres comparar.
-# Puedes añadir, quitar o modificar los términos libremente.
+# Lista ampliada de productos para capturar más variedad
 PRODUCTOS = [
-    "leche entera",
-    "arroz redondo",
-    "aceite de oliva virgen extra",
-    "huevos frescos",
-    "pan de molde",
-    "manzanas",
-    "pechuga de pollo",
-    "espaguetis",
-    "tomate frito",
-    "atún en aceite",
+    # Lácteos y huevos
+    "leche entera", "leche semidesnatada", "leche desnatada", "yogur natural", "queso curado", "huevos frescos",
+    # Despensa
+    "arroz redondo", "arroz largo", "pasta espaguetis", "pasta macarrones", "aceite de oliva virgen extra", "aceite de girasol",
+    "tomate frito", "atún en aceite", "atún al natural", "legumbres cocidas", "harina de trigo", "azúcar blanco", "sal fina",
+    # Carnicería y pescadería
+    "pechuga de pollo", "muslos de pollo", "carne picada", "lomo de cerdo", "salmón fresco", "merluza",
+    # Frutería y verdulería
+    "manzanas", "plátanos", "naranjas", "peras", "tomates", "cebollas", "patatas", "zanahorias", "lechuga",
+    # Panadería y bollería
+    "pan de molde", "pan de barra", "croissants", "magdalenas",
+    # Bebidas
+    "agua mineral", "zumo de naranja", "refresco de cola", "cerveza", "vino tinto",
+    # Limpieza e higiene
+    "detergente ropa", "lavavajillas líquido", "limpiacristales", "papel higiénico", "gel de ducha", "pasta de dientes",
 ]
 
 # Código postal para localizar precios de tu zona
 POSTAL_CODE = "28001"
-
 # Máximo de resultados por producto y supermercado
-PAGE_SIZE = 5
+PAGE_SIZE = 3
 
 
-# ============================================================
-# LÓGICA PRINCIPAL
-# ============================================================
 def main():
     resultados = []
+    errores_totales = []
 
     for termino in PRODUCTOS:
         print(f"Buscando: {termino}...", file=sys.stderr)
@@ -40,29 +41,22 @@ def main():
         try:
             result = search_all(termino, postal_code=POSTAL_CODE, page_size=PAGE_SIZE)
         except Exception as e:
-            print(f"❌ Error crítico buscando '{termino}': {type(e).__name__}: {e}", file=sys.stderr)
+            error_msg = f"Error crítico en search_all para '{termino}': {type(e).__name__}: {e}"
+            print(f"❌ {error_msg}", file=sys.stderr)
+            errores_totales.append(error_msg)
             continue
 
+        # Procesar productos encontrados
         for store, product in result.products:
-            # Comprobar que el producto tiene estructura de precio válida
             if not hasattr(product, "price") or not hasattr(product.price, "amount"):
                 continue
-
             precio = product.price.amount
-
-            # Saltar productos sin precio (amount == None)
             if precio is None:
-                print(f"⚠️  Omitido '{product.name}' ({store}): precio no disponible", file=sys.stderr)
                 continue
-
-            # Convertir a float con protección
             try:
                 precio_float = float(precio)
             except (TypeError, ValueError):
-                print(f"⚠️  Omitido '{product.name}' ({store}): precio inválido ({precio})", file=sys.stderr)
                 continue
-
-            # Saltar precios no positivos por seguridad
             if precio_float <= 0:
                 continue
 
@@ -74,16 +68,13 @@ def main():
                 "search_term": termino,
             })
 
-        # Reportar supermercados que fallaron en esta búsqueda (sin detener el script)
+        # Reportar qué supermercados fallaron para este término (ej. Carrefour)
         for entry in result.failed:
-            print(
-                f"⚠️  Falló {entry.store} para '{termino}': {entry.error_type} - {entry.reason}",
-                file=sys.stderr,
-            )
+            error_detallado = f"{entry.store} falló para '{termino}': {entry.error_type} - {entry.reason}"
+            print(f"⚠️  {error_detallado}", file=sys.stderr)
+            errores_totales.append(error_detallado)
 
-    # ========================================================
-    # DEDUPLICACIÓN Y ORDENACIÓN
-    # ========================================================
+    # Deduplicar y ordenar
     vistos = set()
     unicos = []
     for item in resultados:
@@ -94,14 +85,15 @@ def main():
 
     unicos.sort(key=lambda x: (x["search_term"], x["price"]))
 
-    # ========================================================
-    # GUARDAR JSON
-    # ========================================================
+    # Guardar JSON
     output_path = Path("precios.json")
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(unicos, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Generados {len(unicos)} registros en {output_path}", file=sys.stderr)
+    print(f"\n✅ Generados {len(unicos)} registros en {output_path}", file=sys.stderr)
+    
+    if errores_totales:
+        print(f"\n⚠️  Se produjeron {len(errores_totales)} errores/fallos parciales durante el scraping. Revisa el log para más detalles.", file=sys.stderr)
 
 
 if __name__ == "__main__":
