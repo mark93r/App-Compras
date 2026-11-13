@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mi Compra Inteligente</title>
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --primary-light: #e8f5e9;
+            --secondary: #1565c0;
+            --danger: #c62828;
+            --warning: #f57c00;
+            --text: #212121;
+            --text-muted: #757575;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --border: #e0e0e0;
+            --radius: 12px;
+            --shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            padding: 12px;
+            padding-bottom: 80px;
+        }
+
+        .app-container { max-width: 900px; margin: 0 auto; }
+
+        header { text-align: center; margin-bottom: 16px; }
+        header h1 { font-size: 1.5rem; color: var(--primary); }
+        header p { color: var(--text-muted); font-size: 0.85rem; }
+
+        .tabs {
+            display: flex;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            background: transparent;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+        .tab-btn.active { background: var(--primary); color: white; }
+
+        .section {
+            display: none;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 16px;
+        }
+        .section.active { display: block; }
+
+        .input-group { display: flex; gap: 8px; margin-bottom: 12px; }
+        .input-group input {
+            flex: 1;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 1rem;
+            outline: none;
+        }
+        .input-group input:focus { border-color: var(--primary); }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-secondary { background: var(--secondary); color: white; }
+        .btn-danger { background: var(--danger); color: white; }
+        .btn-small { padding: 8px 12px; font-size: 0.85rem; }
+
+        .shopping-list { list-style: none; }
+        .shopping-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .shopping-item:last-child { border-bottom: none; }
+        .shopping-item input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            accent-color: var(--primary);
+        }
+        .shopping-item .item-name { flex: 1; font-size: 1rem; }
+        .shopping-item.completed .item-name {
+            text-decoration: line-through;
+            color: var(--text-muted);
+        }
+        .shopping-item .item-price {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-muted);
+            padding: 30px 10px;
+            font-size: 0.95rem;
+        }
+
+        /* Barra de estado de los precios */
+        .prices-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: #fafafa;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .prices-status #status-text { flex: 1; min-width: 150px; }
+        .prices-status.ok { background: var(--primary-light); border-color: var(--primary); color: var(--primary); }
+        .prices-status.warn { background: #fff3e0; border-color: var(--warning); color: var(--warning); }
+        .prices-status.error { background: #ffebee; border-color: var(--danger); color: var(--danger); }
+
+        .status-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: var(--text-muted);
+            flex-shrink: 0;
+        }
+        .prices-status.ok .status-dot { background: var(--primary); }
+        .prices-status.warn .status-dot { background: var(--warning); }
+        .prices-status.error .status-dot { background: var(--danger); }
+
+        /* Panel de configuración */
+        .config-panel {
+            background: #fafafa;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px;
+            margin-bottom: 12px;
+        }
+        .config-panel label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text);
+        }
+        .config-panel input[type="url"] {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 0.85rem;
+            font-family: monospace;
+            margin-bottom: 10px;
+            outline: none;
+        }
+        .config-panel input[type="url"]:focus { border-color: var(--primary); }
+        .config-panel .hint {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .config-panel .action-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+            font-size: 0.85rem;
+        }
+        .comparison-table th {
+            background: var(--primary-light);
+            color: var(--primary);
+            text-align: left;
+            padding: 10px 8px;
+            font-weight: 600;
+            border-bottom: 2px solid var(--primary);
+        }
+        .comparison-table td {
+            padding: 10px 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        .comparison-table tr:last-child td { border-bottom: none; }
+
+        .best-price {
+            background: #f1f8e9;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .store-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .summary-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+            padding: 12px;
+            background: var(--primary-light);
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        @media (max-width: 480px) {
+            .comparison-table { font-size: 0.78rem; }
+            .comparison-table th, .comparison-table td { padding: 8px 4px; }
+            .input-group { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>🛒 Mi Compra Inteligente</h1>
+            <p>Lista de la compra y comparador de precios reales</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="list">📝 Lista</button>
+            <button class="tab-btn" data-tab="comparator">💰 Comparador</button>
+        </div>
+
+        <!-- Lista de la compra -->
+        <div id="section-list" class="section active">
+            <div class="input-group">
+                <input type="text" id="item-input" placeholder="Añadir producto..." autocomplete="off">
+                <button class="btn-primary" id="add-item-btn">Añadir</button>
+            </div>
+
+            <ul class="shopping-list" id="shopping-list"></ul>
+            <div class="empty-state" id="list-empty-state">Tu lista está vacía. ¡Añade tu primer producto!</div>
+
+            <div class="summary-bar" id="list-summary" style="display: none;">
+                <span id="list-count">0 productos</span>
+                <span id="list-total">Total: 0,00 €</span>
+            </div>
+
+            <div style="margin-top: 12px; text-align: right;">
+                <button class="btn-danger btn-small" id="clear-list-btn">Vaciar lista</button>
+            </div>
+        </div>
+
+        <!-- Comparador de precios -->
+        <div id="section-comparator" class="section">
+            <div class="input-group">
+                <input type="text" id="search-input" placeholder="Buscar: leche, arroz, aceite..." autocomplete="off">
+                <button class="btn-secondary" id="search-btn">Comparar</button>
+            </div>
+
+            <!-- Barra de estado de los precios -->
+            <div class="prices-status" id="prices-status">
+                <span class="status-dot"></span>
+                <span id="status-text">Cargando precios...</span>
+                <button class="btn-secondary btn-small" id="refresh-prices-btn" title="Recargar precios">🔄</button>
+                <button class="btn-secondary btn-small" id="config-prices-btn" title="Configurar URL">⚙️</button>
+            </div>
+
+            <!-- Panel de configuración de la URL -->
+            <div class="config-panel" id="config-panel" style="display: none;">
+                <label for="prices-url-input">URL del archivo de precios (precios.json)</label>
+                <input type="url" id="prices-url-input" placeholder="https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json" inputmode="url" autocomplete="off">
+                <p class="hint">
+                    Pega aquí la URL raw de tu <code>precios.json</code> en GitHub. Se guardará en este dispositivo y solo tendrás que configurarla una vez.
+                </p>
+                <div class="action-buttons">
+                    <button class="btn-primary btn-small" id="save-url-btn">Guardar y recargar</button>
+                    <button class="btn-danger btn-small" id="reset-url-btn">Restablecer</button>
+                </div>
+            </div>
+
+            <div id="comparison-results">
+                <div class="empty-state">Introduce un producto para ver precios.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================================
+        // 1. CONFIGURACIÓN Y ESTADO DE LOS PRECIOS
+        // ============================================================
+        // URL por defecto (placeholder). Cámbiala desde el panel ⚙️ de la app.
+        const DEFAULT_PRECIOS_URL = 'https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json';
+
+        const STORAGE_KEY_LIST = 'mi_compra_inteligente_items_v1';
+        const STORAGE_KEY_URL = 'mi_compra_precios_url_v1';
+        const STORAGE_KEY_CACHE = 'mi_compra_precios_cache_v1';
+
+        // Datos de respaldo por si no hay red ni caché (muy reducidos para que la app nunca esté vacía)
+        const FALLBACK_DATA = [
+            { store: 'Mercadona', product: 'Leche entera Hacendado 1L', price: 0.95, unit: '1 L' },
+            { store: 'Carrefour', product: 'Leche entera Carrefour 1L', price: 0.92, unit: '1 L' },
+            { store: 'Dia', product: 'Leche entera Dia 1L', price: 0.89, unit: '1 L' },
+            { store: 'Mercadona', product: 'Arroz redondo Hacendado 1kg', price: 1.35, unit: '1 kg' },
+            { store: 'Carrefour', product: 'Arroz redondo Carrefour 1kg', price: 1.29, unit: '1 kg' },
+            { store: 'Dia', product: 'Arroz redondo Dia 1kg', price: 1.25, unit: '1 kg' },
+            { store: 'Mercadona', product: 'Aceite de oliva virgen extra Hacendado 1L', price: 7.50, unit: '1 L' },
+            { store: 'Carrefour', product: 'Aceite de oliva virgen extra Carrefour 1L', price: 7.20, unit: '1 L' },
+            { store: 'Dia', product: 'Aceite de oliva virgen extra Dia 1L', price: 6.95, unit: '1 L' },
+            { store: 'Mercadona', product: 'Huevos frescos M 12 uds', price: 2.15, unit: '12 uds' },
+            { store: 'Carrefour', product: 'Huevos frescos M 12 uds', price: 2.10, unit: '12 uds' },
+            { store: 'Dia', product: 'Huevos frescos M 12 uds', price: 1.99, unit: '12 uds' }
+        ];
+
+        let PRICE_DATA = [];
+        let loadingPrices = false;
+
+        // ============================================================
+        // 2. CARGA DE PRECIOS (remota → caché → respaldo)
+        // ============================================================
+        function getConfiguredUrl() {
+            return localStorage.getItem(STORAGE_KEY_URL) || DEFAULT_PRECIOS_URL;
+        }
+
+        function isPlaceholderUrl(url) {
+            return !url || url.includes('TU_USUARIO') || url.includes('TU_REPO');
+        }
+
+        function setStatus(type, text) {
+            const bar = document.getElementById('prices-status');
+            const statusText = document.getElementById('status-text');
+            bar.classList.remove('ok', 'warn', 'error');
+            if (type) bar.classList.add(type);
+            statusText.textContent = text;
+        }
+
+        function formatFecha(ts) {
+            if (!ts) return '';
+            const d = new Date(ts);
+            return d.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
+        }
+
+        async function loadPrices() {
+            if (loadingPrices) return;
+            loadingPrices = true;
+
+            const url = getConfiguredUrl();
+
+            // Caso A: URL sin configurar → usar caché o respaldo
+            if (isPlaceholderUrl(url)) {
+                const cached = tryLoadCache();
+                if (cached) {
+                    PRICE_DATA = cached.data;
+                    setStatus('warn', `Usando precios en caché (${cached.data.length}) · ${formatFecha(cached.ts)}. Configura la URL con ⚙️`);
+                } else {
+                    PRICE_DATA = FALLBACK_DATA;
+                    setStatus('warn', `Usando datos de ejemplo (${FALLBACK_DATA.length}). Configura la URL con ⚙️ para precios reales`);
+                }
+                loadingPrices = false;
+                return;
+            }
+
+            // Caso B: URL configurada → intentar fetch
+            setStatus('', 'Cargando precios...');
+            try {
+                const response = await fetch(url, { cache: 'no-store' });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                const data = await response.json();
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('El archivo de precios está vacío o mal formado');
+                }
+
+                PRICE_DATA = data.map(item => ({
+                    store: item.store || item.supermercado || '?',
+                    product: item.product || item.nombre || '?',
+                    price: Number(item.price ?? item.precio ?? 0),
+                    unit: item.unit || item.unidad || ''
+                })).filter(p => p.price > 0);
+
+                // Guardar en caché
+                const ts = Date.now();
+                try {
+                    localStorage.setItem(STORAGE_KEY_CACHE, JSON.stringify({ ts, data: PRICE_DATA }));
+                } catch (e) { /* localStorage lleno, ignorar */ }
+
+                setStatus('ok', `Precios actualizados: ${PRICE_DATA.length} productos · ${formatFecha(ts)}`);
+            } catch (error) {
+                console.warn('Error cargando precios remotos:', error);
+                // Intentar caché
+                const cached = tryLoadCache();
+                if (cached) {
+                    PRICE_DATA = cached.data;
+                    setStatus('warn', `Sin conexión. Usando caché (${cached.data.length}) · ${formatFecha(cached.ts)}`);
+                } else {
+                    PRICE_DATA = FALLBACK_DATA;
+                    setStatus('error', `Error cargando precios. Usando datos de ejemplo (${FALLBACK_DATA.length})`);
+                }
+            } finally {
+                loadingPrices = false;
+            }
+        }
+
+        function tryLoadCache() {
+            try {
+                const raw = localStorage.getItem(STORAGE_KEY_CACHE);
+                if (!raw) return null;
+                const parsed = JSON.parse(raw);
+                if (!parsed || !Array.isArray(parsed.data) || parsed.data.length === 0) return null;
+                return parsed;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        // ============================================================
+        // 3. LISTA DE LA COMPRA (con localStorage)
+        // ============================================================
+        let shoppingItems = [];
+
+        function loadItems() {
+            const stored = localStorage.getItem(STORAGE_KEY_LIST);
+            if (stored) {
+                try { shoppingItems = JSON.parse(stored); } catch (e) { shoppingItems = []; }
+            }
+            renderShoppingList();
+        }
+
+        function saveItems() {
+            localStorage.setItem(STORAGE_KEY_LIST, JSON.stringify(shoppingItems));
+        }
+
+        function renderShoppingList() {
+            const listEl = document.getElementById('shopping-list');
+            const emptyEl = document.getElementById('list-empty-state');
+            const summaryEl = document.getElementById('list-summary');
+
+            listEl.innerHTML = '';
+
+            if (shoppingItems.length === 0) {
+                emptyEl.style.display = 'block';
+                summaryEl.style.display = 'none';
+                return;
+            }
+
+            emptyEl.style.display = 'none';
+            summaryEl.style.display = 'flex';
+
+            shoppingItems.forEach(item => {
+                const li = document.createElement('li');
+                li.className = `shopping-item ${item.completed ? 'completed' : ''}`;
+                li.dataset.id = item.id;
+
+                li.innerHTML = `
+                    <input type="checkbox" ${item.completed ? 'checked' : ''} data-action="toggle">
+                    <span class="item-name">${escapeHtml(item.name)}</span>
+                    ${item.price !== null ? `<span class="item-price">${formatPrice(item.price)}</span>` : ''}
+                    <button class="btn-danger btn-small" data-action="delete">🗑️</button>
+                `;
+
+                listEl.appendChild(li);
+            });
+
+            updateSummary();
+        }
+
+        function updateSummary() {
+            const count = shoppingItems.length;
+            const total = shoppingItems.reduce((sum, item) => sum + (item.price || 0), 0);
+            document.getElementById('list-count').textContent = `${count} producto${count !== 1 ? 's' : ''}`;
+            document.getElementById('list-total').textContent = `Total: ${formatPrice(total)}`;
+        }
+
+        function addItem(name, price = null) {
+            const trimmed = name.trim();
+            if (!trimmed) return;
+
+            shoppingItems.push({
+                id: Date.now().toString(36) + Math.random().toString(36).substr(2, 5),
+                name: trimmed,
+                completed: false,
+                price: price
+            });
+
+            saveItems();
+            renderShoppingList();
+
+            document.getElementById('item-input').value = '';
+            document.getElementById('item-input').focus();
+        }
+
+        document.getElementById('shopping-list').addEventListener('click', (e) => {
+            const target = e.target;
+            const li = target.closest('.shopping-item');
+            if (!li) return;
+
+            const id = li.dataset.id;
+            const item = shoppingItems.find(i => i.id === id);
+            if (!item) return;
+
+            if (target.dataset.action === 'toggle') {
+                item.completed = target.checked;
+                saveItems();
+                renderShoppingList();
+            } else if (target.dataset.action === 'delete') {
+                shoppingItems = shoppingItems.filter(i => i.id !== id);
+                saveItems();
+                renderShoppingList();
+            }
+        });
+
+        document.getElementById('add-item-btn').addEventListener('click', () => {
+            addItem(document.getElementById('item-input').value);
+        });
+
+        document.getElementById('item-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') addItem(e.target.value);
+        });
+
+        document.getElementById('clear-list-btn').addEventListener('click', () => {
+            if (shoppingItems.length === 0) return;
+            if (confirm('¿Vaciar toda la lista?')) {
+                shoppingItems = [];
+                saveItems();
+                renderShoppingList();
+            }
+        });
+
+        // ============================================================
+        // 4. COMPARADOR
+        // ============================================================
+        function searchPrices(query) {
+            const q = query.toLowerCase().trim();
+            if (!q) return [];
+            return PRICE_DATA.filter(item =>
+                item.product.toLowerCase().includes(q) ||
+                item.store.toLowerCase().includes(q)
+            );
+        }
+
+        function renderComparisonResults(results, query) {
+            const container = document.getElementById('comparison-results');
+
+            if (PRICE_DATA.length === 0) {
+                container.innerHTML = `<div class="empty-state">Aún no hay precios cargados. Pulsa 🔄 o configura la URL con ⚙️.</div>`;
+                return;
+            }
+
+            if (results.length === 0) {
+                container.innerHTML = `<div class="empty-state">No hay resultados para "<strong>${escapeHtml(query)}</strong>". Prueba con otro término.</div>`;
+                return;
+            }
+
+            const grouped = {};
+            results.forEach(item => {
+                const key = item.product.replace(/Hacendado|Carrefour|Dia|Alcampo|Milbona/gi, '').trim();
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(item);
+            });
+
+            let html = '<table class="comparison-table"><thead><tr><th>Producto</th><th>Súper</th><th>Precio</th><th></th></tr></thead><tbody>';
+
+            Object.values(grouped).forEach(group => {
+                group.sort((a, b) => a.price - b.price);
+                const bestPrice = group[0].price;
+
+                group.forEach(item => {
+                    const isBest = item.price === bestPrice;
+                    html += `
+                        <tr class="${isBest ? 'best-price' : ''}">
+                            <td>${escapeHtml(item.product)}</td>
+                            <td><span class="store-badge">${escapeHtml(item.store)}</span></td>
+                            <td>${formatPrice(item.price)} <small style="color:var(--text-muted);">/ ${escapeHtml(item.unit)}</small></td>
+                            <td>
+                                <button class="btn-primary btn-small"
+                                        data-product="${escapeHtml(item.product)}"
+                                        data-price="${item.price}">
+                                    ➕
+                                </button>
+                            </td>
+                        </tr>
+                    `;
+                });
+            });
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+
+            container.querySelectorAll('button[data-product]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    addItem(btn.dataset.product, parseFloat(btn.dataset.price));
+                    switchTab('list');
+                });
+            });
+        }
+
+        document.getElementById('search-btn').addEventListener('click', () => {
+            const query = document.getElementById('search-input').value.trim();
+            if (!query) {
+                document.getElementById('comparison-results').innerHTML = '<div class="empty-state">Introduce un producto para comparar.</div>';
+                return;
+            }
+            renderComparisonResults(searchPrices(query), query);
+        });
+
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') document.getElementById('search-btn').click();
+        });
+
+        // ============================================================
+        // 5. PANEL DE CONFIGURACIÓN DE LA URL
+        // ============================================================
+        const configPanel = document.getElementById('config-panel');
+        const pricesUrlInput = document.getElementById('prices-url-input');
+
+        document.getElementById('config-prices-btn').addEventListener('click', () => {
+            const visible = configPanel.style.display !== 'none';
+            configPanel.style.display = visible ? 'none' : 'block';
+            if (!visible) {
+                const current = getConfiguredUrl();
+                pricesUrlInput.value = isPlaceholderUrl(current) ? '' : current;
+                pricesUrlInput.focus();
+            }
+        });
+
+        document.getElementById('save-url-btn').addEventListener('click', async () => {
+            const value = pricesUrlInput.value.trim();
+            if (!value) {
+                alert('Introduce una URL válida.');
+                return;
+            }
+            localStorage.setItem(STORAGE_KEY_URL, value);
+            // Limpiar caché para forzar recarga desde la nueva URL
+            localStorage.removeItem(STORAGE_KEY_CACHE);
+            configPanel.style.display = 'none';
+            await loadPrices();
+            // Re-render si había una búsqueda activa
+            const q = document.getElementById('search-input').value.trim();
+            if (q) renderComparisonResults(searchPrices(q), q);
+        });
+
+        document.getElementById('reset-url-btn').addEventListener('click', async () => {
+            if (!confirm('¿Olvidar la URL configurada?')) return;
+            localStorage.removeItem(STORAGE_KEY_URL);
+            localStorage.removeItem(STORAGE_KEY_CACHE);
+            pricesUrlInput.value = '';
+            configPanel.style.display = 'none';
+            await loadPrices();
+        });
+
+        document.getElementById('refresh-prices-btn').addEventListener('click', async () => {
+            await loadPrices();
+            const q = document.getElementById('search-input').value.trim();
+            if (q) renderComparisonResults(searchPrices(q), q);
+        });
+
+        // ============================================================
+        // 6. UTILIDADES Y NAVEGACIÓN
+        // ============================================================
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatPrice(value) {
+            return new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(value);
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.tab === tabName);
+            });
+            document.querySelectorAll('.section').forEach(sec => {
+                sec.classList.toggle('active', sec.id === `section-${tabName}`);
+            });
+            if (tabName === 'comparator') {
+                document.getElementById('search-input').focus();
+            }
+        }
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+        });
+
+        // ============================================================
+        // 7. INICIALIZACIÓN
+        // ============================================================
+        loadItems();
+        loadPrices();
+    </script>
+</body>
+</html>
