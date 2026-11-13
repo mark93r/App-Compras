@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mi-compra-v1.1';
+const CACHE_NAME = 'mi-compra-v1.2';
 const urlsToCache = [
   '/App-Compras/',
   '/App-Compras/index.html'
