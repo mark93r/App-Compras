@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Mi Compra Inteligente</title>
+    
+    <!-- ENLACE AL MANIFEST PARA INSTALAR COMO APP (PWA) -->
+    <link rel="manifest" href="manifest.json">
+    
     <style>
         :root {
             --primary: #2e7d32;
@@ -123,7 +127,6 @@
             font-size: 0.95rem;
         }
 
-        /* Barra de estado de los precios */
         .prices-status {
             display: flex;
             align-items: center;
@@ -151,7 +154,6 @@
         .prices-status.warn .status-dot { background: var(--warning); }
         .prices-status.error .status-dot { background: var(--danger); }
 
-        /* Panel de configuración */
         .config-panel {
             background: #fafafa;
             border: 1px solid var(--border);
@@ -240,7 +242,6 @@
             .input-group { flex-direction: column; }
         }
     </style>
-    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <div class="app-container">
@@ -281,7 +282,6 @@
                 <button class="btn-secondary" id="search-btn">Comparar</button>
             </div>
 
-            <!-- Barra de estado de los precios -->
             <div class="prices-status" id="prices-status">
                 <span class="status-dot"></span>
                 <span id="status-text">Cargando precios...</span>
@@ -289,7 +289,6 @@
                 <button class="btn-secondary btn-small" id="config-prices-btn" title="Configurar URL">⚙️</button>
             </div>
 
-            <!-- Panel de configuración de la URL -->
             <div class="config-panel" id="config-panel" style="display: none;">
                 <label for="prices-url-input">URL del archivo de precios (precios.json)</label>
                 <input type="url" id="prices-url-input" placeholder="https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json" inputmode="url" autocomplete="off">
@@ -312,34 +311,22 @@
         // ============================================================
         // 1. CONFIGURACIÓN Y ESTADO DE LOS PRECIOS
         // ============================================================
-        // URL por defecto (placeholder). Cámbiala desde el panel ⚙️ de la app.
         const DEFAULT_PRECIOS_URL = 'https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/precios.json';
-
         const STORAGE_KEY_LIST = 'mi_compra_inteligente_items_v1';
         const STORAGE_KEY_URL = 'mi_compra_precios_url_v1';
         const STORAGE_KEY_CACHE = 'mi_compra_precios_cache_v1';
 
-        // Datos de respaldo por si no hay red ni caché (muy reducidos para que la app nunca esté vacía)
         const FALLBACK_DATA = [
             { store: 'Mercadona', product: 'Leche entera Hacendado 1L', price: 0.95, unit: '1 L' },
             { store: 'Carrefour', product: 'Leche entera Carrefour 1L', price: 0.92, unit: '1 L' },
-            { store: 'Dia', product: 'Leche entera Dia 1L', price: 0.89, unit: '1 L' },
-            { store: 'Mercadona', product: 'Arroz redondo Hacendado 1kg', price: 1.35, unit: '1 kg' },
-            { store: 'Carrefour', product: 'Arroz redondo Carrefour 1kg', price: 1.29, unit: '1 kg' },
-            { store: 'Dia', product: 'Arroz redondo Dia 1kg', price: 1.25, unit: '1 kg' },
-            { store: 'Mercadona', product: 'Aceite de oliva virgen extra Hacendado 1L', price: 7.50, unit: '1 L' },
-            { store: 'Carrefour', product: 'Aceite de oliva virgen extra Carrefour 1L', price: 7.20, unit: '1 L' },
-            { store: 'Dia', product: 'Aceite de oliva virgen extra Dia 1L', price: 6.95, unit: '1 L' },
-            { store: 'Mercadona', product: 'Huevos frescos M 12 uds', price: 2.15, unit: '12 uds' },
-            { store: 'Carrefour', product: 'Huevos frescos M 12 uds', price: 2.10, unit: '12 uds' },
-            { store: 'Dia', product: 'Huevos frescos M 12 uds', price: 1.99, unit: '12 uds' }
+            { store: 'Dia', product: 'Leche entera Dia 1L', price: 0.89, unit: '1 L' }
         ];
 
         let PRICE_DATA = [];
         let loadingPrices = false;
 
         // ============================================================
-        // 2. CARGA DE PRECIOS (remota → caché → respaldo)
+        // 2. CARGA DE PRECIOS
         // ============================================================
         function getConfiguredUrl() {
             return localStorage.getItem(STORAGE_KEY_URL) || DEFAULT_PRECIOS_URL;
@@ -369,7 +356,6 @@
 
             const url = getConfiguredUrl();
 
-            // Caso A: URL sin configurar → usar caché o respaldo
             if (isPlaceholderUrl(url)) {
                 const cached = tryLoadCache();
                 if (cached) {
@@ -377,13 +363,12 @@
                     setStatus('warn', `Usando precios en caché (${cached.data.length}) · ${formatFecha(cached.ts)}. Configura la URL con ⚙️`);
                 } else {
                     PRICE_DATA = FALLBACK_DATA;
-                    setStatus('warn', `Usando datos de ejemplo (${FALLBACK_DATA.length}). Configura la URL con ⚙️ para precios reales`);
+                    setStatus('warn', `Usando datos de ejemplo. Configura la URL con ⚙️`);
                 }
                 loadingPrices = false;
                 return;
             }
 
-            // Caso B: URL configurada → intentar fetch
             setStatus('', 'Cargando precios...');
             try {
                 const response = await fetch(url, { cache: 'no-store' });
@@ -401,23 +386,21 @@
                     unit: item.unit || item.unidad || ''
                 })).filter(p => p.price > 0);
 
-                // Guardar en caché
                 const ts = Date.now();
                 try {
                     localStorage.setItem(STORAGE_KEY_CACHE, JSON.stringify({ ts, data: PRICE_DATA }));
-                } catch (e) { /* localStorage lleno, ignorar */ }
+                } catch (e) { /* localStorage lleno */ }
 
                 setStatus('ok', `Precios actualizados: ${PRICE_DATA.length} productos · ${formatFecha(ts)}`);
             } catch (error) {
                 console.warn('Error cargando precios remotos:', error);
-                // Intentar caché
                 const cached = tryLoadCache();
                 if (cached) {
                     PRICE_DATA = cached.data;
-                    setStatus('warn', `Sin conexión. Usando caché (${cached.data.length}) · ${formatFecha(cached.ts)}`);
+                    setStatus('warn', `Sin conexión. Usando caché (${cached.data.length})`);
                 } else {
                     PRICE_DATA = FALLBACK_DATA;
-                    setStatus('error', `Error cargando precios. Usando datos de ejemplo (${FALLBACK_DATA.length})`);
+                    setStatus('error', `Error cargando precios. Usando datos de ejemplo.`);
                 }
             } finally {
                 loadingPrices = false;
@@ -437,7 +420,7 @@
         }
 
         // ============================================================
-        // 3. LISTA DE LA COMPRA (con localStorage)
+        // 3. LISTA DE LA COMPRA
         // ============================================================
         let shoppingItems = [];
 
@@ -480,10 +463,8 @@
                     ${item.price !== null ? `<span class="item-price">${formatPrice(item.price)}</span>` : ''}
                     <button class="btn-danger btn-small" data-action="delete">🗑️</button>
                 `;
-
                 listEl.appendChild(li);
             });
-
             updateSummary();
         }
 
@@ -507,7 +488,6 @@
 
             saveItems();
             renderShoppingList();
-
             document.getElementById('item-input').value = '';
             document.getElementById('item-input').focus();
         }
@@ -570,7 +550,7 @@
             }
 
             if (results.length === 0) {
-                container.innerHTML = `<div class="empty-state">No hay resultados para "<strong>${escapeHtml(query)}</strong>". Prueba con otro término.</div>`;
+                container.innerHTML = `<div class="empty-state">No hay resultados para "<strong>${escapeHtml(query)}</strong>".</div>`;
                 return;
             }
 
@@ -595,11 +575,7 @@
                             <td><span class="store-badge">${escapeHtml(item.store)}</span></td>
                             <td>${formatPrice(item.price)} <small style="color:var(--text-muted);">/ ${escapeHtml(item.unit)}</small></td>
                             <td>
-                                <button class="btn-primary btn-small"
-                                        data-product="${escapeHtml(item.product)}"
-                                        data-price="${item.price}">
-                                    ➕
-                                </button>
+                                <button class="btn-primary btn-small" data-product="${escapeHtml(item.product)}" data-price="${item.price}">➕</button>
                             </td>
                         </tr>
                     `;
@@ -631,7 +607,7 @@
         });
 
         // ============================================================
-        // 5. PANEL DE CONFIGURACIÓN DE LA URL
+        // 5. PANEL DE CONFIGURACIÓN
         // ============================================================
         const configPanel = document.getElementById('config-panel');
         const pricesUrlInput = document.getElementById('prices-url-input');
@@ -653,11 +629,9 @@
                 return;
             }
             localStorage.setItem(STORAGE_KEY_URL, value);
-            // Limpiar caché para forzar recarga desde la nueva URL
             localStorage.removeItem(STORAGE_KEY_CACHE);
             configPanel.style.display = 'none';
             await loadPrices();
-            // Re-render si había una búsqueda activa
             const q = document.getElementById('search-input').value.trim();
             if (q) renderComparisonResults(searchPrices(q), q);
         });
@@ -707,15 +681,21 @@
         });
 
         // ============================================================
-        // 7. INICIALIZACIÓN
+        // 7. INICIALIZACIÓN Y SERVICE WORKER
         // ============================================================
         loadItems();
         loadPrices();
+
+        // REGISTRO DEL SERVICE WORKER PARA QUE SEA INSTALABLE
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').then(registration => {
+                    console.log('ServiceWorker registrado con éxito:', registration.scope);
+                }).catch(error => {
+                    console.log('Fallo al registrar el ServiceWorker:', error);
+                });
+            });
+        }
     </script>
-    <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js');
-  }
-</script>
 </body>
 </html>
