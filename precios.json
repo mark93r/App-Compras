@@ -1,0 +1,2179 @@
+[
+  {
+    "store": "Lidl",
+    "product": "Bebida energética classic",
+    "price": 0.39,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Chips extra crujientes",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Bastones de pan con aceite de oliva virgen extra",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Espetec extra",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de oliva virgen extra Coosur",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Lomo de orza con aceite de oliva virgen extra",
+    "price": 2.49,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Argus Especial",
+    "price": 3.39,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "CARBONELL Oli d'oliva verge extra",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Aceite de oliva virgen extra botella de cristal de 750 ml.",
+    "price": 4.05,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Aceite de oliva virgen extra Hacendado",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Oli d'oliva verge extra",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite oliva virgen extra Alipende 1l",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Aceite de oliva virgen extra botella 1 l",
+    "price": 4.34,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de oliva virgen extra Dia La Almazara del Olivar 1 L",
+    "price": 4.35,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Aceite de oliva virgen extra Picual Casa Juncal",
+    "price": 4.85,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de oliva virgen extra Carbonell 1l",
+    "price": 4.95,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Aceite de oliva virgen extra Hacendado Gran Selección",
+    "price": 5.25,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de oliva virgen extra Dia La Almazara del Olivar 750 ml",
+    "price": 5.25,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de oliva virgen extra Carbonell 1 L",
+    "price": 5.39,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Mantecado de aceite de oliva virgen extra",
+    "price": 5.89,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de oliva virgen extra Coosur Picual",
+    "price": 6.39,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de oliva Virgen Extra Pons Arbequina",
+    "price": 6.79,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CARBONELL Aceite de oliva virgen extra botella de 1 l.",
+    "price": 6.89,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de oliva virgen extra Germanor arbequina",
+    "price": 7.45,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "COOSUR Oli d'oliva verge extra",
+    "price": 11.25,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Aceite de oliva virgen extra",
+    "price": 12.13,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de oliva virgen extra Dia La Almazara del Olivar 3 L",
+    "price": 12.75,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de oliva virgen extra Maestros de Hojiblanca garrafa 3l",
+    "price": 12.75,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cerveza especial",
+    "price": 13.49,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de oliva virgen extra",
+    "price": 14.95,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "VALDEZARZA Aceite de oliva virgen extra 2,5 l",
+    "price": 16.2,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de oliva virgen extra Hacienda Inmaculada 5l",
+    "price": 18.75,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de oliva virgen extra Coosur 5l",
+    "price": 20.95,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "LA ESPAÑOLA Aceite de oliva virgen extra garrafa de 5 l.",
+    "price": 27.03,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de oliva virgen extra Coosur 5 L",
+    "price": 27.95,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "GERMANOR Oli d'oliva verge extra arbequina",
+    "price": 33.95,
+    "unit": "",
+    "search_term": "aceite de oliva virgen extra"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Arroz redondo 500 g.",
+    "price": 0.58,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Remolacha cocida",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz cocido redondo Sabroz",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Arroz redondo",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Arroz redondo en tarrina",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg.",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz redondo Hacendado",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Arròs extra",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz Alipende 1kg redondo",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Arroz redondo extra paquete de 1 kg.",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Tomate frito",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BRILLANTE Arròs rodó tradicional",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz redondo Brillante pack 2",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Arroz con leche",
+    "price": 1.24,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz redondo J Sendra Hacendado",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Dia",
+    "product": "Arroz redondo J.Sendra Dia Arrozona 1 Kg",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz redondo la Fallera",
+    "price": 1.68,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Alcampo",
+    "product": "LA FALLERA Arroz redondo paquete de 1 kg.",
+    "price": 1.74,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pera Rocha",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz Calidad 1 Minuto Nomen paq. 2 u. de 140 g",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz redondo SOS",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Dia",
+    "product": "Arroz redondo SOS 1 Kg",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz Sos 1kg granza",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Alcampo",
+    "product": "SOS Arroz redondo 1 kg.",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "NOMEN Arròs rodó",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Dia",
+    "product": "Tortitas de arroz integral con chocolate negro Dia Naturmundo 130 g",
+    "price": 1.9,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "MONTSIA Arròs rodó extra",
+    "price": 1.93,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Dia",
+    "product": "Vasos de arroz redondo Brillante 2 x 200 g",
+    "price": 2.35,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz redondo Brillante pack 2 xl",
+    "price": 2.35,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz redondo Sabor",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Dia",
+    "product": "Arroz redondo Sabroz Brillante 1 Kg",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz redondo Sabroz Brillante 1kg",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "NOMEN Arròs rodó ecològic",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz bomba",
+    "price": 4.89,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz extra Arrullo",
+    "price": 6.76,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz largo Arrullo",
+    "price": 6.76,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Trozos de atún en aceite de girasol",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Aldi",
+    "product": "Atún en aceite de girasol",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pizza atún y bacon",
+    "price": 2.15,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún en aceite de oliva Dia Mari Marinera 3 x 52 g",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Aldi",
+    "product": "Atún en aceite de oliva",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún claro con aceite vegetal paq. 3 u.",
+    "price": 2.55,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún claro bajo en sal en aceite de oliva paq 3 u.",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún claro en aceite de oliva virgen extra paq 3 u.",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Bonito Alipende 190g en aceite oliva",
+    "price": 3.55,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+    "price": 3.64,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún claro en aceite de girasol Hacendado",
+    "price": 4.2,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Atún claro Alipende pack 6 al natural",
+    "price": 4.2,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún en aceite de oliva Dia Mari Marinera 6 x 52 g",
+    "price": 4.25,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún claro en aceite de oliva Albo 3 x 48 g",
+    "price": 4.85,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún claro con aceite de oliva paq. de 6 u.",
+    "price": 4.89,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún claro en aceite de oliva Hacendado",
+    "price": 4.9,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g",
+    "price": 4.9,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Atún claro Alipende pack 6 en aceite oliva",
+    "price": 4.9,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Atún en filete sin piel 240g",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún en aceite de girasol Hacendado",
+    "price": 6.5,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Atún claro Albo pack3 aceite oliva",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún en aceite de oliva Hacendado",
+    "price": 7.7,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún en aceite de girasol Ribeira",
+    "price": 8.17,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Lidl",
+    "product": "Salmón ahumado",
+    "price": 12.99,
+    "unit": "",
+    "search_term": "atún en aceite"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti fino Hacendado",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Espagueti Dia Al Diante 500 g",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tallarín Alipende 500g",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pulguita",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Espaguetis N.º 3 Gallo 400 g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Espaguetis Nº3 Gallo 400g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti integral Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Espagueti Dia Al Diante 1 Kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Espaguetis integrales Dia Al Diante 500 g",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Macarrones Dia Al Diante 1 Kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Spaghetti Alipende 1kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta spaguetti La moianesa con tinta de sepia",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Spaghetti Garofalo 500g",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti Armando",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Accesorios de cocina",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Espaguetis a la carbonara",
+    "price": 1.54,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Espaguetis con tomate y setas",
+    "price": 1.64,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Palitos de merluza a la romana",
+    "price": 2.15,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta spaguetti Gallo sense gluten",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de soja ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de edamame ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de soja negra ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tarro Hero Solo espaguetis 235g pack 2",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pinzas espaguetis inox 41001",
+    "price": 4.77,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Juego de utensilios de cocina. 4 piezas.",
+    "price": 5.49,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Olla para espárragos / Olla para espaguetis / Vaporeera ecológica, 3 pzas.",
+    "price": 21.99,
+    "unit": "",
+    "search_term": "espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Huevos de codorniz",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pasta fresca tagliatelle al huevo Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Patatas fritas",
+    "price": 1.43,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Salsa fresca de eneldo",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Huevos de gallinas criadas en el suelo L - M",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Huevos de codorniz 18u",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Ous frescos de gallines criades a l'aire lliure M",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Aldi",
+    "product": "Gofres de huevos frescos",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Huevos cocidos de gallina",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mejillón fresco",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Longaniza fresca de cerdo",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Huevos M rubio estuchado",
+    "price": 2.55,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Ous frescos de gallines soltes en el galliner M",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Ous frescos ecològics classe M",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PITAS Huevos de gallinas en jaulas acondicionadas clase M 12 Unidades",
+    "price": 2.98,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Ous frescos de gallines soltes en el galliner L",
+    "price": 3.05,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Huevos de gallinas sueltas en el gallinero Alipende 12u \"clase l\"",
+    "price": 3.05,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L y cat. A 12 uds Producto Alcampo.",
+    "price": 3.05,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Alcampo",
+    "product": "LA HUERTA DE GALLOCANTA Huevos de gallinas camperas clase M y categoria A 12 uds.",
+    "price": 3.34,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Huevos camperos Alipende 12 unidades",
+    "price": 3.35,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Huevos chef XL-L estuchados",
+    "price": 3.95,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Huevos camperos Pazo de Vilane 12 unidades",
+    "price": 4.69,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Ous frescos ecològics classe L",
+    "price": 4.85,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CORRAL DE MONEGROS Huevos de gallinas camperas clase M-L y cat. A 12 uds.",
+    "price": 5.03,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Huevos de gallinas sueltas en el gallinero Alipende 24u \"clase m\"",
+    "price": 5.25,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Dia",
+    "product": "Arreglo para caldo Selección de Dia 1.25 Kg aprox.",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Huevos de gallinas sueltas en el gallinero clase M y cat. A 30 uds. Producto Alcampo",
+    "price": 7.12,
+    "unit": "",
+    "search_term": "huevos frescos"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche entera Gremlins Dia Láctea 3 x 200 ml",
+    "price": 0.92,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Llet sencera en cartró",
+    "price": 0.96,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche entera Dia Láctea 1 L",
+    "price": 0.96,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche entera",
+    "price": 0.96,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche entera Alipende 1L",
+    "price": 0.96,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Leche entera de vaca 1 l. Producto Alcampo",
+    "price": 0.96,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche pasteurizada entera (Mantener refrigerado)",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Río 1l entera",
+    "price": 1.02,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche entera sin lactosa",
+    "price": 1.03,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche entera paq. 3 u. de 200 ml",
+    "price": 1.07,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche entera sin lactosa paq. 3 u. de 200 ml",
+    "price": 1.12,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche entera pasteurizada Dia Láctea 1 L",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche fresca entera",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Lauki 1l entera",
+    "price": 1.18,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tableta chocolate con leche almendras enteras",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "ASTURIANA Llet sencera en cartró",
+    "price": 1.24,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Asturiana 1l entera",
+    "price": 1.24,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Pascual 1l entera",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Lidl",
+    "product": "Chocolate",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "ATO Llet sencera en cartró 3x20 cl",
+    "price": 1.48,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Lidl",
+    "product": "Lacón al horno",
+    "price": 1.59,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo.",
+    "price": 1.71,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche entera",
+    "price": 1.77,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tableta de chocolate con leche y almendras enteras",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Alcampo",
+    "product": "L.R. Leche entera 6 x 1 l.",
+    "price": 5.7,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Leche entera Hacendado",
+    "price": 5.76,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Llet sencera 6x1L en cartró",
+    "price": 5.76,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche entera Dia Láctea pack 6 x 1 L",
+    "price": 5.76,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Leche entera de vaca 6 x 1 l Producto Alcampo.",
+    "price": 5.76,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche entera paq. de 6 brics",
+    "price": 5.94,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mini tarta de chocolate y pistacho",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Leche entera sin lactosa Hacendado",
+    "price": 6.18,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1l.",
+    "price": 7.08,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche entera Asturiana pack 6 x 1 L",
+    "price": 7.44,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "LLET NOSTRA Llet sencera 6x1L en cartró",
+    "price": 7.74,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Lidl",
+    "product": "Foie gras entero de pato",
+    "price": 7.79,
+    "unit": "",
+    "search_term": "leche entera"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "Poma Golden Km0 1 u.",
+    "price": 0.39,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Manzana roja dulce",
+    "price": 0.4,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Manzana Golden",
+    "price": 0.44,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Manzana roja acidulce",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "Poma Pink Lady 1 u.",
+    "price": 0.71,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Dia",
+    "product": "Manzana Golden granel 500 g aprox.",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Dia",
+    "product": "Pera conferencia bandeja 700 g",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mini mousse de pato en tarro cerámico",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Alcampo",
+    "product": "Manzanas gala 1 kg.",
+    "price": 1.44,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Dia",
+    "product": "Manzana roja granel 800 g aprox.",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Alcampo",
+    "product": "Manzanas Golden 1 kg.",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Alcampo",
+    "product": "Manzanas golden al peso.",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Manzana Golden",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Dia",
+    "product": "Manzana Golden 1 Kg",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Champú",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Dia",
+    "product": "Manzana roja dulce 1 Kg",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Manzana",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Manzana golden",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "LA COLLITA Poma golden de Girona Km0 bossa 1,5 kg",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Manzanas rojas dulces",
+    "price": 2.7,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Manzanas Golden",
+    "price": 2.7,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Alcampo",
+    "product": "Manzana Granny Smith al peso.",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Alcampo",
+    "product": "Manzana Fuji al peso.",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Manzana roja",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Manzana fuji",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Manzana reineta",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Manzana Granny Smith",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Manzana granny smith",
+    "price": 3.31,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Manzana golden extra",
+    "price": 3.48,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Bombón mousse de pato con manzana",
+    "price": 3.49,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Manzana gala",
+    "price": 3.64,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Manzana gala bolsa",
+    "price": 3.9,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Sidra Ladrón de Manzanas paq. de 6 u.",
+    "price": 6.9,
+    "unit": "",
+    "search_term": "manzanas"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Pa de motlle",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Pa de motlle 100% integral",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pan de molde integral Alipende 460g",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Pan de molde clásico con corteza 600 g.",
+    "price": 1.04,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pan de molde blanco sin corteza Hacendado",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Pa de motlle sense crosta",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pan de molde blanco sin corteza El Molino de Dia 450 g",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pan de molde integral sin corteza",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Pan de molde blanco sin corteza 450 g.",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pan de molde 100% integral sin corteza Hacendado",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan de molde",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pan de molde trigo integral sin corteza El Molino de Dia 450 g",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pan de molde integral",
+    "price": 1.12,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pan de molde blanco familiar Hacendado",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pan de molde 100% integral familiar Hacendado",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Pa de motlle familiar",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pan de molde blanco El Molino de Dia 820 g",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pan de molde Alipende 820g Familiar",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Pan de molde integral con corteza 600 g.",
+    "price": 1.23,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pan de molde trigo integral El Molino de Dia 820 g",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pan de molde espelta integral El Molino de Dia 400 g",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Pan de molde blanco con corteza 1000 g.",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pan de molde semillas y pipas de calabaza Hacendado",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pan de molde rústico",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pan de molde de semillas y pipas",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan de molde rústico",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pan de molde sin gluten",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pan de molde Bimbo 700g familiar",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pan de molde sin corteza Bimbo 450 g",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan de molde 15 cereales y semillas",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan de molde 50% centeno con semillas",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan de molde sin corteza",
+    "price": 2.4,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Alcampo",
+    "product": "BIMBO Pan estilo artesano 500 g.",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BIMBO Pa de motlle artesà",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pan de molde artesencia Bimbo 500g",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde desmoldable / Molde para plumcake / Molde para Gugelhupf",
+    "price": 4.49,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Lidl",
+    "product": "Moldes para pan",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde de silicona Wunderform M",
+    "price": 13.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde desmontable, con base de cristal, 18 cm.",
+    "price": 13.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde para pan de hierro fundido",
+    "price": 29.99,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechuga de pollo 95% Dia Nuestra Alacena 120 g",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pechuga de pollo braseada Hacendado lonchas",
+    "price": 2.3,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pechuga de pollo 92% Hacendado lonchas",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pechuga de pollo braseada extrafino Hacendado lonchas",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pechuga de pollo empanada",
+    "price": 3.15,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pechuga de pollo empanada prefrita",
+    "price": 3.15,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pechuga de pollo amarillo fileteado empanado",
+    "price": 3.67,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pechuga de pollo fileteada 65% cereales",
+    "price": 3.76,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pechuga de pollo empanada crujiente",
+    "price": 3.78,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Nuggets de pechuga de pollo",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pechuga de pollo marinada",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Filetes pechuga de pollo corte fino",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechuga de pollo corte fino Selección de Dia 600 g aprox.",
+    "price": 4.19,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pollo marinado de finas hierbas",
+    "price": 4.29,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechugas enteras de pollo Selección de Dia 700 g aprox.",
+    "price": 4.89,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pechuga de pollo",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pechuga de pollo amarillo entera",
+    "price": 5.12,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechugas fileteadas Selección de Dia bandeja 650 g aprox.",
+    "price": 5.19,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pechuga de pollo formato familiar",
+    "price": 5.55,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pechuga de pollo blanco fileteado",
+    "price": 5.66,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "LOTE 1kg pechugas de pollo + 1kg de muslos",
+    "price": 6.49,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo",
+    "price": 6.52,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pollo asado troceado Chimichurri",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pechugas de pollo enteras congeladas",
+    "price": 7.32,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "LOTE 2 kg de pechugas de pollo",
+    "price": 7.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechuga de pollo entera formato familiar Selección de Dia 1.3 Kg aprox.",
+    "price": 8.7,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pechuga de pollo amarillo Pazo de Pías",
+    "price": 9.99,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomate frito",
+    "price": 0.74,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate frito origen nacional sin gluten Alipende 550g",
+    "price": 0.88,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Lidl",
+    "product": "Hummus",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate frito Dia Vegecampo 550 g",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate frito Dia Vegecampo 3 x 215 g",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomate frito estilo casero",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate frito casero Dia Vegecampo 350 g",
+    "price": 1.11,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate frito origen nacional sin gluten Alipende p3 400g",
+    "price": 1.25,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate frito Dia Vegecampo 3 x 390 g",
+    "price": 1.32,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Tomate frito Hacendado",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate frito Hida 340g estilo casero",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomate frito  con aceite de oliva",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate frito con aceite de oliva Dia Vegecampo 3 x 215 g",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate frito casero en aceite oliva Alipende 350g",
+    "price": 1.5,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomate frito ecológico",
+    "price": 1.59,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomate frito casero",
+    "price": 1.82,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate cherry",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mantecado de canela bolsa",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Tomate frito receta artesana Hacendado",
+    "price": 2.0,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate frito sin gluten Orlando pack-3 con abre facil",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate pera",
+    "price": 2.92,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate maduro",
+    "price": 4.36,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate rama",
+    "price": 4.91,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate verde",
+    "price": 5.26,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pasa purés / Cortapapas (cortador de patatas fritas)",
+    "price": 9.99,
+    "unit": "",
+    "search_term": "tomate frito"
+  }
+]
