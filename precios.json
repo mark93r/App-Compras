@@ -1,10 +1,115 @@
 [
   {
     "store": "Lidl",
-    "product": "Bebida energética classic",
-    "price": 0.39,
+    "product": "Hélices vegetales",
+    "price": 1.25,
     "unit": "",
-    "search_term": "aceite de oliva virgen extra"
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Aldi",
+    "product": "Trozos de atún en aceite de girasol",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Aceite de girasol refinado 0,2º Hacendado",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite refinado de girasol Diasol 1 L",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de girasol Alipende 1l",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Aldi",
+    "product": "Sardinillas en aceite de girasol",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de girasol Koipe 1l",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Aldi",
+    "product": "Atún claro en aceite de girasol",
+    "price": 2.19,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Aceite de girasol alto oleico",
+    "price": 2.25,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Lidl",
+    "product": "Frutos secos",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite de girasol Koipe 1 L",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún en aceite de girasol Hacendado",
+    "price": 6.5,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Lidl",
+    "product": "Giraviento",
+    "price": 7.99,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún en aceite de girasol Ribeira",
+    "price": 8.17,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Dia",
+    "product": "Aceite refinado de girasol Diasol 5 L",
+    "price": 8.6,
+    "unit": "",
+    "search_term": "aceite de girasol"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Aceite de girasol Alipende garrafa 5l",
+    "price": 8.6,
+    "unit": "",
+    "search_term": "aceite de girasol"
   },
   {
     "store": "Lidl",
@@ -28,50 +133,8 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Bonarea",
-    "product": "Aceite de oliva virgen extra Coosur",
-    "price": 1.99,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Aldi",
-    "product": "Lomo de orza con aceite de oliva virgen extra",
-    "price": 2.49,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Lidl",
-    "product": "Argus Especial",
-    "price": 3.39,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "CARBONELL Oli d'oliva verge extra",
-    "price": 3.99,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Aceite de oliva virgen extra botella de cristal de 750 ml.",
-    "price": 4.05,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
     "store": "Mercadona",
     "product": "Aceite de oliva virgen extra Hacendado",
-    "price": 4.1,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BONPREU Oli d'oliva verge extra",
     "price": 4.1,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
@@ -84,23 +147,9 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Aceite de oliva virgen extra botella 1 l",
-    "price": 4.34,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
     "store": "Dia",
     "product": "Aceite de oliva virgen extra Dia La Almazara del Olivar 1 L",
     "price": 4.35,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Aceite de oliva virgen extra Picual Casa Juncal",
-    "price": 4.85,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
   },
@@ -112,30 +161,9 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Mercadona",
-    "product": "Aceite de oliva virgen extra Hacendado Gran Selección",
-    "price": 5.25,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
     "store": "Dia",
     "product": "Aceite de oliva virgen extra Dia La Almazara del Olivar 750 ml",
     "price": 5.25,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Dia",
-    "product": "Aceite de oliva virgen extra Carbonell 1 L",
-    "price": 5.39,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Aldi",
-    "product": "Mantecado de aceite de oliva virgen extra",
-    "price": 5.89,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
   },
@@ -147,16 +175,9 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Bonarea",
-    "product": "Aceite de oliva Virgen Extra Pons Arbequina",
-    "price": 6.79,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Alcampo",
-    "product": "CARBONELL Aceite de oliva virgen extra botella de 1 l.",
-    "price": 6.89,
+    "store": "Carrefour",
+    "product": "Aceite de oliva virgen extra Maestros de Hojiblanca 1 l.",
+    "price": 7.39,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
   },
@@ -168,9 +189,9 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Bonpreu",
-    "product": "COOSUR Oli d'oliva verge extra",
-    "price": 11.25,
+    "store": "Carrefour",
+    "product": "Aceite de oliva virgen extra hojiblanca Coosur 1 l.",
+    "price": 7.89,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
   },
@@ -210,65 +231,268 @@
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Alcampo",
-    "product": "VALDEZARZA Aceite de oliva virgen extra 2,5 l",
-    "price": 16.2,
+    "store": "Carrefour",
+    "product": "Aceite de oliva virgen extra Maestros de Hojiblanca 5 l.",
+    "price": 33.92,
     "unit": "",
     "search_term": "aceite de oliva virgen extra"
   },
   {
-    "store": "Ahorramas",
-    "product": "Aceite de oliva virgen extra Hacienda Inmaculada 5l",
-    "price": 18.75,
+    "store": "Carrefour",
+    "product": "Agua mineral Fuente Primavera 1,5 l.",
+    "price": 0.26,
     "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Aceite de oliva virgen extra Coosur 5l",
-    "price": 20.95,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Alcampo",
-    "product": "LA ESPAÑOLA Aceite de oliva virgen extra garrafa de 5 l.",
-    "price": 27.03,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
-  },
-  {
-    "store": "Dia",
-    "product": "Aceite de oliva virgen extra Coosur 5 L",
-    "price": 27.95,
-    "unit": "",
-    "search_term": "aceite de oliva virgen extra"
+    "search_term": "agua mineral"
   },
   {
     "store": "Bonpreu",
-    "product": "GERMANOR Oli d'oliva verge extra arbequina",
-    "price": 33.95,
+    "product": "MONTSENY Aigua mineral natural 1,5 L",
+    "price": 0.27,
     "unit": "",
-    "search_term": "aceite de oliva virgen extra"
+    "search_term": "agua mineral"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Arroz redondo 500 g.",
-    "price": 0.58,
+    "store": "Dia",
+    "product": "Agua mineral Dia 1,5 L",
+    "price": 0.27,
     "unit": "",
-    "search_term": "arroz redondo"
+    "search_term": "agua mineral"
   },
   {
-    "store": "Lidl",
-    "product": "Remolacha cocida",
-    "price": 0.75,
+    "store": "Aldi",
+    "product": "Agua mineral natural",
+    "price": 0.28,
     "unit": "",
-    "search_term": "arroz redondo"
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Agua mineral natural Teleno 1,5l",
+    "price": 0.39,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Aldi",
+    "product": "Agua mineral con gas",
+    "price": 0.41,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Agua mineral natural Bezoya Botella Sport 33cl",
+    "price": 0.55,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+    "price": 0.64,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Dia",
+    "product": "Agua mineral Dia 5 L",
+    "price": 0.68,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Agua mineral Carrefour Classic 5 l.",
+    "price": 1.08,
+    "unit": "",
+    "search_term": "agua mineral"
   },
   {
     "store": "Mercadona",
-    "product": "Arroz cocido redondo Sabroz",
-    "price": 1.05,
+    "product": "Agua mineral grande Aguadoy",
+    "price": 1.62,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "MONTSENY Aigua mineral natural 6x1,5 L",
+    "price": 1.62,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "FONTBOIX Aigua mineral natural garrafa 5 L",
+    "price": 1.64,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Alcampo",
+    "product": "PRODUCTO ALCAMPO Agua mineral garrafa de 8 l.",
+    "price": 1.64,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Agua mineral natural botella tapón sport paq. de 6 u. de 33 cl",
+    "price": 1.68,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Alcampo",
+    "product": "ESMIAGUA Agua mineral botella de 1,5 L, pack de 6 uds.",
+    "price": 1.92,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Agua mineral Font Vella 6,25 l.",
+    "price": 2.19,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Alcampo",
+    "product": "TELENO Agua mineral pack de 6 uds. x 1,5 l.",
+    "price": 2.28,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Dia",
+    "product": "Agua mineral muy débil Dia pack 6 x 1,5 L",
+    "price": 2.4,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Lidl",
+    "product": "Aguacate malla",
+    "price": 2.49,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Agua mineral tapón sport paq. 6 botellas de 75 cl",
+    "price": 4.32,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Agua mineral Bezoya paq. de 6 botellas de 50 cl",
+    "price": 4.32,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Agua mineral grande Bezoya",
+    "price": 4.5,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Agua mineral grande Solán de Cabras",
+    "price": 5.1,
+    "unit": "",
+    "search_term": "agua mineral"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz largo La Rueda 1kg",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz largo Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz largo",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Dia",
+    "product": "Arroz largo Dia Arrozona 1 Kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz Alipende 1kg largo",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Arroz largo vaporizado Carrefour Classic 1 kg.",
+    "price": 1.46,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Arroz largo cocido Classic Carrefour sin gluten pack de 2 unidades de 125 g.",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Arroz integral largo Hacendado",
+    "price": 1.65,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Arroz largo Brillante pack 2 xl",
+    "price": 2.15,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz basmati",
+    "price": 2.19,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Arroz largo Arrullo",
+    "price": 6.76,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vestido largo de mujer, con clásico estampado de cachemir.",
+    "price": 11.99,
+    "unit": "",
+    "search_term": "arroz largo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Arroz largo categoria 1 Carrefour Classic´ 1 kg.",
+    "price": 1.09,
     "unit": "",
     "search_term": "arroz redondo"
   },
@@ -287,22 +511,8 @@
     "search_term": "arroz redondo"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg.",
-    "price": 1.09,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
     "store": "Mercadona",
     "product": "Arroz redondo Hacendado",
-    "price": 1.15,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BONPREU Arròs extra",
     "price": 1.15,
     "unit": "",
     "search_term": "arroz redondo"
@@ -315,22 +525,8 @@
     "search_term": "arroz redondo"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Arroz redondo extra paquete de 1 kg.",
-    "price": 1.15,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Lidl",
-    "product": "Tomate frito",
-    "price": 1.19,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BRILLANTE Arròs rodó tradicional",
+    "store": "Carrefour",
+    "product": "Arroz redondo para microondas Brillante pack de 2 unidades de 125 g.",
     "price": 1.2,
     "unit": "",
     "search_term": "arroz redondo"
@@ -371,20 +567,6 @@
     "search_term": "arroz redondo"
   },
   {
-    "store": "Alcampo",
-    "product": "LA FALLERA Arroz redondo paquete de 1 kg.",
-    "price": 1.74,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Lidl",
-    "product": "Pera Rocha",
-    "price": 1.79,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
     "store": "Bonarea",
     "product": "Arroz Calidad 1 Minuto Nomen paq. 2 u. de 140 g",
     "price": 1.85,
@@ -394,6 +576,13 @@
   {
     "store": "Mercadona",
     "product": "Arroz redondo SOS",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "arroz redondo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Arroz redondo Sos 1 kg.",
     "price": 1.88,
     "unit": "",
     "search_term": "arroz redondo"
@@ -413,72 +602,9 @@
     "search_term": "arroz redondo"
   },
   {
-    "store": "Alcampo",
-    "product": "SOS Arroz redondo 1 kg.",
-    "price": 1.88,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "NOMEN Arròs rodó",
-    "price": 1.89,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Dia",
-    "product": "Tortitas de arroz integral con chocolate negro Dia Naturmundo 130 g",
-    "price": 1.9,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "MONTSIA Arròs rodó extra",
-    "price": 1.93,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
     "store": "Dia",
     "product": "Vasos de arroz redondo Brillante 2 x 200 g",
     "price": 2.35,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Arroz redondo Brillante pack 2 xl",
-    "price": 2.35,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Arroz redondo Sabor",
-    "price": 2.45,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Dia",
-    "product": "Arroz redondo Sabroz Brillante 1 Kg",
-    "price": 2.79,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Arroz redondo Sabroz Brillante 1kg",
-    "price": 2.79,
-    "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "NOMEN Arròs rodó ecològic",
-    "price": 2.99,
     "unit": "",
     "search_term": "arroz redondo"
   },
@@ -490,32 +616,74 @@
     "search_term": "arroz redondo"
   },
   {
-    "store": "Bonarea",
-    "product": "Arroz extra Arrullo",
-    "price": 6.76,
+    "store": "Dia",
+    "product": "Atún claro al natural alto en proteínas Dia Mari Marinera 2 x 56 g",
+    "price": 1.95,
     "unit": "",
-    "search_term": "arroz redondo"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Arroz largo Arrullo",
-    "price": 6.76,
-    "unit": "",
-    "search_term": "arroz redondo"
+    "search_term": "atún al natural"
   },
   {
     "store": "Aldi",
-    "product": "Trozos de atún en aceite de girasol",
-    "price": 1.49,
+    "product": "Atún al natural",
+    "price": 1.95,
     "unit": "",
-    "search_term": "atún en aceite"
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún al natural Dia Mari Marinera 3 x 56 g",
+    "price": 1.96,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Atún claro al natural paq. 3 u.",
+    "price": 2.29,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Atún claro Alipende pack 3 al natural",
+    "price": 2.7,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún listado al natural Hacendado",
+    "price": 3.0,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Salmón al natural Hacendado",
+    "price": 3.55,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Atún claro al natural Hacendado",
+    "price": 4.2,
+    "unit": "",
+    "search_term": "atún al natural"
+  },
+  {
+    "store": "Dia",
+    "product": "Atún claro al natural Dia Mari Marinera 6 x 60 g",
+    "price": 4.2,
+    "unit": "",
+    "search_term": "atún al natural"
   },
   {
     "store": "Aldi",
-    "product": "Atún en aceite de girasol",
-    "price": 1.75,
+    "product": "Atún claro al natural",
+    "price": 4.49,
     "unit": "",
-    "search_term": "atún en aceite"
+    "search_term": "atún al natural"
   },
   {
     "store": "Lidl",
@@ -525,23 +693,9 @@
     "search_term": "atún en aceite"
   },
   {
-    "store": "Dia",
-    "product": "Atún en aceite de oliva Dia Mari Marinera 3 x 52 g",
-    "price": 2.45,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
     "store": "Aldi",
     "product": "Atún en aceite de oliva",
     "price": 2.45,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Atún claro con aceite vegetal paq. 3 u.",
-    "price": 2.55,
     "unit": "",
     "search_term": "atún en aceite"
   },
@@ -560,13 +714,6 @@
     "search_term": "atún en aceite"
   },
   {
-    "store": "Ahorramas",
-    "product": "Bonito Alipende 190g en aceite oliva",
-    "price": 3.55,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
     "store": "Dia",
     "product": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
     "price": 3.64,
@@ -574,9 +721,9 @@
     "search_term": "atún en aceite"
   },
   {
-    "store": "Mercadona",
-    "product": "Atún claro en aceite de girasol Hacendado",
-    "price": 4.2,
+    "store": "Carrefour",
+    "product": "Atún en aceite de oliva Original Carrefour pack de 3 unidades de 52 g.",
+    "price": 3.75,
     "unit": "",
     "search_term": "atún en aceite"
   },
@@ -591,20 +738,6 @@
     "store": "Dia",
     "product": "Atún en aceite de oliva Dia Mari Marinera 6 x 52 g",
     "price": 4.25,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
-    "store": "Dia",
-    "product": "Atún claro en aceite de oliva Albo 3 x 48 g",
-    "price": 4.85,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Atún claro con aceite de oliva paq. de 6 u.",
-    "price": 4.89,
     "unit": "",
     "search_term": "atún en aceite"
   },
@@ -637,16 +770,16 @@
     "search_term": "atún en aceite"
   },
   {
-    "store": "Mercadona",
-    "product": "Atún en aceite de girasol Hacendado",
-    "price": 6.5,
+    "store": "Carrefour",
+    "product": "Atún en aceite de oliva virgen extra ecológico Carrefour pack de 6 latas de 52 g.",
+    "price": 7.15,
     "unit": "",
     "search_term": "atún en aceite"
   },
   {
-    "store": "Ahorramas",
-    "product": "Atún claro Albo pack3 aceite oliva",
-    "price": 6.99,
+    "store": "Carrefour",
+    "product": "Atún en aceite de oliva Classic Carrefour lata 650 g.",
+    "price": 7.69,
     "unit": "",
     "search_term": "atún en aceite"
   },
@@ -654,13 +787,6 @@
     "store": "Mercadona",
     "product": "Atún en aceite de oliva Hacendado",
     "price": 7.7,
-    "unit": "",
-    "search_term": "atún en aceite"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Atún en aceite de girasol Ribeira",
-    "price": 8.17,
     "unit": "",
     "search_term": "atún en aceite"
   },
@@ -673,192 +799,983 @@
   },
   {
     "store": "Mercadona",
-    "product": "Spaghetti fino Hacendado",
-    "price": 0.85,
+    "product": "Azúcar blanco Hacendado",
+    "price": 0.9,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Azúcar blanco paquete",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "azúcar blanco"
   },
   {
     "store": "Dia",
-    "product": "Espagueti Dia Al Diante 500 g",
-    "price": 0.85,
+    "product": "Azúcar blanco Dia 1 Kg",
+    "price": 0.9,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "azúcar blanco"
   },
   {
     "store": "Ahorramas",
-    "product": "Tallarín Alipende 500g",
+    "product": "Azúcar blanco Azucarera 1kg",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Azúcar blanco Carrefour Classic 1 kg.",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Dia",
+    "product": "Azúcar blanco Azucarera 1 Kg",
+    "price": 1.12,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Azúcar blanco Azucarera 1 kg.",
+    "price": 1.16,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Azúcar blanco Azucarera 800g brick",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Dia",
+    "product": "Azúcar blanco en sobres Dia 300 g",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Azúcar blanco Azucarera 50u en sobres",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Azúcar blanco en azucaritos Azucarera 300 g.",
+    "price": 1.36,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Azúcar blanco Sucrebo stick bote 50 u. X 7 g.",
+    "price": 1.5,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Azúcar blanco en sobres Hacendado",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Azúcar blanco Azucarera cortadillo",
+    "price": 2.3,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Turrón blando de almendras Hacendado 0% azúcares añadidos",
+    "price": 3.0,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vino blanco",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "azúcar blanco"
+  },
+  {
+    "store": "Dia",
+    "product": "Carne picada de cerdo Selección de Dia 500 g",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Aldi",
+    "product": "Burger estilo New York",
+    "price": 3.59,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Preparado de carne picada de pollo 500g",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Preparado de carne picada vacuno y cerdo",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Dia",
+    "product": "Carne picada de vacuno y cerdo Selección de Dia 500 g",
+    "price": 4.19,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Filete empanado de cerdo",
+    "price": 4.25,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Carne picada de cerdo",
+    "price": 4.95,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Carne picada de cerdo burger meat El Pozo 800g aprox",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Preparado de carne picada vacuno",
+    "price": 5.4,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Burguer meat de Angus Miguel Vergara pack 2 de 160g",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Carne picada de vacuno",
+    "price": 7.43,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Dia",
+    "product": "Carne picada de vacuno y cerdo Selección de Dia 900 g",
+    "price": 7.49,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Carne picada mixta de vacuno y cerdo",
+    "price": 8.67,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Picadora de carne compacta, incl. accesorio para galletas.",
+    "price": 9.99,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Picadora de carne eléctrica SFWT 400 B1",
+    "price": 48.99,
+    "unit": "",
+    "search_term": "carne picada"
+  },
+  {
+    "store": "Dia",
+    "product": "Cebolla malla 1 kg",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Dia",
+    "product": "Cebolla troceada Dia Vegecampo 400 g",
+    "price": 0.84,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Cebolla troceada Hacendado ultracongelada",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Dia",
+    "product": "Cebolla malla 750 g",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Caprichos de queso azul y cebolla caramelizada",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Cebollas",
+    "price": 1.5,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cebolla Buti 1k",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Cebollas tiernas",
+    "price": 1.7,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cebolleta blanca manojo 500g",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cebolla dulce",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cebolla Figueres",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cebolla dulce",
+    "price": 2.29,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cebolla tierna",
+    "price": 2.5,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Jamoncitos con pimiento y cebolla",
+    "price": 3.59,
+    "unit": "",
+    "search_term": "cebollas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cerveza rubia Adlerbrau lata 33cl",
+    "price": 0.3,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Cerveza radler",
+    "price": 0.41,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Cerveza sin filtrar",
+    "price": 0.45,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Cerveza especial",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cerveza doble malta ",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cerveza clásica",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cerveza 1601 paq. de 6 u. de 33 cl",
+    "price": 3.3,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Cerveza Clásica Steinburg",
+    "price": 3.6,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cerveza sin alcohol tostada 1601 paq. de 6 u. de 33 cl",
+    "price": 3.72,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Dia",
+    "product": "Cerveza clásica Dia Ramblers pack 12 x 33 cl",
+    "price": 3.84,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cerveza clásica 1601 paq. de 6 u. de 50 cl",
+    "price": 4.62,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Dia",
+    "product": "Cerveza clásica Dia Ramblers pack 24 x 33 cl",
+    "price": 7.2,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Cerveza especial Estrella Galicia",
+    "price": 7.32,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Dia",
+    "product": "Cerveza clásica Mahou pack 12 x 33 cl",
+    "price": 9.24,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cerveza Rubia Mahou 5* 33CL P16",
+    "price": 13.28,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cerveza rubia Mahou Clásica pack 24 latas 33cl",
+    "price": 18.0,
+    "unit": "",
+    "search_term": "cerveza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Croissant relleno de crema de cacao y avellanas",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Mini croissants Alipende 150g con medio baño cacao",
+    "price": 1.25,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Croissant relleno de cacao",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Dia",
+    "product": "Mini croissants con cacao El Molino de Dia 150 g",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Croissants Carrefour Classic 350 g.",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Aldi",
+    "product": "Croissants",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Dia",
+    "product": "Croissants El Molino de Dia 390 g",
+    "price": 1.68,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Aldi",
+    "product": "Croissants con cacao y avellana",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Croissant Hacendado",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Croissant Alipende 360g relleno de cacao",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Croissants rellenos de crema de cacao Carrefour Classic 360 g.",
+    "price": 1.87,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Croissant relleno de crema al cacao Hacendado",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Dia",
+    "product": "Croissants rellenos de cacao con avellanas Dulca 320 g",
+    "price": 2.19,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Croissants bañados con chocolate 10 u.",
+    "price": 2.3,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Croissant con virutas de cacao",
+    "price": 2.6,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mousse de pato",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Croissant triple cacao",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Croissant sin azúcar añadido La Bella Easo 240g",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Lidl",
+    "product": "Soufflé",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Croissants 0% azúcares añadidos La Bella Easo 8 ud.",
+    "price": 3.05,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Lidl",
+    "product": "Crema de pistachos",
+    "price": 3.29,
+    "unit": "",
+    "search_term": "croissants"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Detergente en pastillas Puntomatic 4 lavados 8 unidades ropa blanca",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Detergente a mano lana y ropa delicada Expert Carrefour 30 lavados.",
+    "price": 2.35,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Detergente ropa jabón natural de Marsella Bosque Verde líquido",
+    "price": 3.5,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Detergente ropa Frescura Bosque Verde líquido",
+    "price": 3.5,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Detergente líquido Oro ropa color",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Detergente líquido Oro ropa negra",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Aldi",
+    "product": "Detergente ropa oscura",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Aldi",
+    "product": "Detergente líquido Marsella",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Dia",
+    "product": "Detergente líquido azul Dia Super Paco 46 lavados",
+    "price": 4.25,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Dia",
+    "product": "Detergente líquido marsella Dia Super Paco 61 lavados",
+    "price": 4.27,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Detergente líquido para ropa de bebé sin alérgenos Norit 32 lavados.",
+    "price": 4.35,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Dia",
+    "product": "Detergente líquido floral Dia Super Paco 46 lavados",
+    "price": 4.35,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Detergente En Polvo Colon 30+3 Lavados Para Ropa Blanca Y De Color",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Detergente líquido Marsella y flores de naranjo Essential Carrefour 80 lavados.",
+    "price": 5.45,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Detergente ropa Blanca y de Color Bosque Verde líquido",
+    "price": 5.85,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Aldi",
+    "product": "Detergente líquido Azul",
+    "price": 6.49,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Detergente líquido Norit 35+18 Lavados Complet Ropa Siempre Como Nueva",
+    "price": 8.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Elena maleta detergente ropa blanca y de color",
+    "price": 13.78,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ropa de cama de franela fina, 260 x 220 cm",
+    "price": 19.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ropa de cama reversible de franela, 240 x 220 cm",
+    "price": 21.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ropa de cama CVC franela fina, 260 x 220 cm.",
+    "price": 24.99,
+    "unit": "",
+    "search_term": "detergente ropa"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Gel de baño frescor azul Deliplus piel normal",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Dia",
+    "product": "Gel de ducha avena 1 L",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Gel de baño Frutal Deliplus piel normal",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Gel de baño Bodyplus 750 ml frutas",
+    "price": 1.3,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Gel de ducha o baño hidratante Sanex Cuidado Experto",
+    "price": 1.5,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Gel de baño avena Deliplus piel sensible",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Dia",
+    "product": "Gel de ducha de almendras y miel Imaqe 750 ml",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Dia",
+    "product": "Gel de ducha zero recambio Imaqe 1 L",
+    "price": 1.65,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Palmolive gel de ducha natural balance",
+    "price": 2.51,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Gel de ducha Avena Instituto Español 1250ML",
+    "price": 2.55,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Aldi",
+    "product": "Gel de ducha nutritivo",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Gel de ducha Moussel Classique",
+    "price": 3.5,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Sanex gel de dutxa hidratant",
+    "price": 3.68,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Aldi",
+    "product": "Gel de ducha aroma a té verde y bergamota",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Aldi",
+    "product": "Gel de ducha con aroma a vainilla y coco",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Lidl",
+    "product": "Teleducha",
+    "price": 4.0,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ducha de mano",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ducha de mano ahorradora de agua.",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "gel de ducha"
+  },
+  {
+    "store": "Aldi",
+    "product": "Harina de trigo",
+    "price": 0.69,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Harina de trigo Hacendado",
+    "price": 0.72,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Harina de trigo",
+    "price": 0.72,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Dia",
+    "product": "Harina de trigo El Molino de Dia 1 Kg",
+    "price": 0.72,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Harina de trigo Alipende 1kg",
+    "price": 0.72,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Harina de trigo Classic Carrefour 1 kg.",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Harina de trigo integral Carrefour Classic 1 kg.",
     "price": 0.85,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Lidl",
     "product": "Pulguita",
     "price": 0.89,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Dia",
-    "product": "Espaguetis N.º 3 Gallo 400 g",
-    "price": 1.0,
+    "product": "Harina de trigo integral El Molino de Dia 1 Kg",
+    "price": 0.89,
     "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Espaguetis Nº3 Gallo 400g",
-    "price": 1.0,
-    "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Mercadona",
-    "product": "Spaghetti Hacendado",
-    "price": 1.2,
+    "product": "Harina integral de trigo Hacendado",
+    "price": 0.9,
     "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Spaghetti integral Hacendado",
-    "price": 1.2,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Dia",
-    "product": "Espagueti Dia Al Diante 1 Kg",
-    "price": 1.2,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Dia",
-    "product": "Espaguetis integrales Dia Al Diante 500 g",
-    "price": 1.2,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Dia",
-    "product": "Macarrones Dia Al Diante 1 Kg",
-    "price": 1.2,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Spaghetti Alipende 1kg",
-    "price": 1.2,
-    "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Bonarea",
-    "product": "Pasta spaguetti La moianesa con tinta de sepia",
-    "price": 1.35,
+    "product": "Harina de trigo integral",
+    "price": 0.9,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
-    "store": "Ahorramas",
-    "product": "Spaghetti Garofalo 500g",
-    "price": 1.39,
+    "store": "Bonarea",
+    "product": "Harina de fuerza",
+    "price": 0.95,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
-    "store": "Mercadona",
-    "product": "Spaghetti Armando",
-    "price": 1.4,
+    "store": "Carrefour",
+    "product": "Harina de trigo tipo fuerza Original Carrefour 1 kg.",
+    "price": 0.99,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Lidl",
-    "product": "Accesorios de cocina",
+    "product": "Panecillo de centeno 42%",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Masa ",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Harina de trigo Alipende 2kg",
+    "price": 1.18,
+    "unit": "",
+    "search_term": "harina de trigo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Harina de trigo Gallo 1kg",
     "price": 1.49,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
-    "store": "Bonarea",
-    "product": "Espaguetis a la carbonara",
-    "price": 1.54,
+    "store": "Dia",
+    "product": "Harina de trigo Gallo 1 Kg",
+    "price": 1.52,
     "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
-    "store": "Bonarea",
-    "product": "Espaguetis con tomate y setas",
-    "price": 1.64,
+    "store": "Mercadona",
+    "product": "Harina de trigo grande Hacendado",
+    "price": 2.95,
     "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Lidl",
-    "product": "Palitos de merluza a la romana",
-    "price": 2.15,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Pasta spaguetti Gallo sense gluten",
-    "price": 2.45,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Aldi",
-    "product": "Espaguetis de soja ecológicos",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Aldi",
-    "product": "Espaguetis de edamame ecológicos",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Aldi",
-    "product": "Espaguetis de soja negra ecológicos",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Tarro Hero Solo espaguetis 235g pack 2",
-    "price": 3.99,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Pinzas espaguetis inox 41001",
-    "price": 4.77,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Lidl",
-    "product": "Juego de utensilios de cocina. 4 piezas.",
-    "price": 5.49,
-    "unit": "",
-    "search_term": "espaguetis"
-  },
-  {
-    "store": "Lidl",
-    "product": "Olla para espárragos / Olla para espaguetis / Vaporeera ecológica, 3 pzas.",
-    "price": 21.99,
-    "unit": "",
-    "search_term": "espaguetis"
+    "search_term": "harina de trigo"
   },
   {
     "store": "Bonarea",
@@ -876,13 +1793,6 @@
   },
   {
     "store": "Lidl",
-    "product": "Patatas fritas",
-    "price": 1.43,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
-    "store": "Lidl",
     "product": "Salsa fresca de eneldo",
     "price": 1.49,
     "unit": "",
@@ -892,20 +1802,6 @@
     "store": "Bonarea",
     "product": "Huevos de gallinas criadas en el suelo L - M",
     "price": 1.6,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Huevos de codorniz 18u",
-    "price": 1.85,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BONPREU Ous frescos de gallines criades a l'aire lliure M",
-    "price": 1.99,
     "unit": "",
     "search_term": "huevos frescos"
   },
@@ -938,13 +1834,6 @@
     "search_term": "huevos frescos"
   },
   {
-    "store": "Bonarea",
-    "product": "Huevos M rubio estuchado",
-    "price": 2.55,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
     "store": "Bonpreu",
     "product": "BONPREU Ous frescos de gallines soltes en el galliner M",
     "price": 2.85,
@@ -966,13 +1855,6 @@
     "search_term": "huevos frescos"
   },
   {
-    "store": "Bonpreu",
-    "product": "BONPREU Ous frescos de gallines soltes en el galliner L",
-    "price": 3.05,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
     "store": "Ahorramas",
     "product": "Huevos de gallinas sueltas en el gallinero Alipende 12u \"clase l\"",
     "price": 3.05,
@@ -987,13 +1869,6 @@
     "search_term": "huevos frescos"
   },
   {
-    "store": "Alcampo",
-    "product": "LA HUERTA DE GALLOCANTA Huevos de gallinas camperas clase M y categoria A 12 uds.",
-    "price": 3.34,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
     "store": "Ahorramas",
     "product": "Huevos camperos Alipende 12 unidades",
     "price": 3.35,
@@ -1001,30 +1876,9 @@
     "search_term": "huevos frescos"
   },
   {
-    "store": "Bonarea",
-    "product": "Huevos chef XL-L estuchados",
-    "price": 3.95,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Huevos camperos Pazo de Vilane 12 unidades",
-    "price": 4.69,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
     "store": "Bonpreu",
     "product": "BONPREU Ous frescos ecològics classe L",
     "price": 4.85,
-    "unit": "",
-    "search_term": "huevos frescos"
-  },
-  {
-    "store": "Alcampo",
-    "product": "CORRAL DE MONEGROS Huevos de gallinas camperas clase M-L y cat. A 12 uds.",
-    "price": 5.03,
     "unit": "",
     "search_term": "huevos frescos"
   },
@@ -1048,6 +1902,237 @@
     "price": 7.12,
     "unit": "",
     "search_term": "huevos frescos"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Abrillantador lavavajillas líquido Bosque Verde",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Limpiamáquinas lavavajillas líquido Bosque Verde",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Limpiamaquinas líquido para lavavajillas Lanta 250ml",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur líquido sabor fresa",
+    "price": 1.74,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur líquido sabor fresa y plátano",
+    "price": 1.74,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Limpiamaquinas líquido para lavavajillas Finish 250 ml",
+    "price": 3.25,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Lidl",
+    "product": "Tabla de cortar de bambú",
+    "price": 3.49,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Abrillantador lavavajillas líquido Finish",
+    "price": 3.95,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lavavajillas en gel Somat 35 lavados Oro",
+    "price": 4.49,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lavavajillas Ultra Colada de Lina Concentrado",
+    "price": 5.23,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Lidl",
+    "product": "Batidora mezcladora recargable",
+    "price": 15.99,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Lidl",
+    "product": "Lavandería de juguete »Rowenta«",
+    "price": 74.99,
+    "unit": "",
+    "search_term": "lavavajillas líquido"
+  },
+  {
+    "store": "Lidl",
+    "product": "Remolacha cocida",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Llet desnatada UHT",
+    "price": 0.81,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche desnatada Dia Láctea 1 L",
+    "price": 0.81,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche desnatada",
+    "price": 0.81,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche desnatada Alipende 1L",
+    "price": 0.81,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche desnatada sin lactosa",
+    "price": 0.91,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche sin lactosa Alipende 1l desnatada",
+    "price": 0.91,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CENTRAL LECHERA ASTURIANA Leche desnatada de vaca, de origen española 1 l.",
+    "price": 1.01,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Pascual 1l desnatada",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Café molido descafeinado",
+    "price": 2.15,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Leche desnatada Hacendado",
+    "price": 4.86,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Llet desnatada 6x1L en cartró",
+    "price": 4.86,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche desnatada Dia Láctea pack 6 x 1 L",
+    "price": 4.86,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Leche desnatada de vaca 6x 1 l Producto Alcampo.",
+    "price": 5.04,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche desnatada paq. de 6 brics",
+    "price": 5.22,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Leche desnatada sin lactosa Hacendado",
+    "price": 5.46,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche desnatada sin lactosa Dia Láctea pack 6 x 1 L",
+    "price": 5.46,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1l.",
+    "price": 6.06,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "ASTURIANA Llet desnatada 6x1L en cartró",
+    "price": 6.36,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche sin lactosa desnatada paq. de 6 brics",
+    "price": 6.72,
+    "unit": "",
+    "search_term": "leche desnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche desnatada Pascual paq. de 6 brics",
+    "price": 7.74,
+    "unit": "",
+    "search_term": "leche desnatada"
   },
   {
     "store": "Dia",
@@ -1099,13 +2184,6 @@
     "search_term": "leche entera"
   },
   {
-    "store": "Ahorramas",
-    "product": "Leche Río 1l entera",
-    "price": 1.02,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
     "store": "Aldi",
     "product": "Leche entera sin lactosa",
     "price": 1.03,
@@ -1114,22 +2192,8 @@
   },
   {
     "store": "Bonarea",
-    "product": "Leche entera paq. 3 u. de 200 ml",
-    "price": 1.07,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Bonarea",
     "product": "Leche entera sin lactosa paq. 3 u. de 200 ml",
     "price": 1.12,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Dia",
-    "product": "Leche entera pasteurizada Dia Láctea 1 L",
-    "price": 1.15,
     "unit": "",
     "search_term": "leche entera"
   },
@@ -1148,13 +2212,6 @@
     "search_term": "leche entera"
   },
   {
-    "store": "Aldi",
-    "product": "Tableta chocolate con leche almendras enteras",
-    "price": 1.19,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
     "store": "Bonpreu",
     "product": "ASTURIANA Llet sencera en cartró",
     "price": 1.24,
@@ -1169,23 +2226,9 @@
     "search_term": "leche entera"
   },
   {
-    "store": "Ahorramas",
-    "product": "Leche Pascual 1l entera",
-    "price": 1.29,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
     "store": "Lidl",
     "product": "Chocolate",
     "price": 1.39,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "ATO Llet sencera en cartró 3x20 cl",
-    "price": 1.48,
     "unit": "",
     "search_term": "leche entera"
   },
@@ -1197,23 +2240,9 @@
     "search_term": "leche entera"
   },
   {
-    "store": "Alcampo",
-    "product": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo.",
-    "price": 1.71,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
     "store": "Bonarea",
     "product": "Leche entera",
     "price": 1.77,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Aldi",
-    "product": "Tableta de chocolate con leche y almendras enteras",
-    "price": 1.99,
     "unit": "",
     "search_term": "leche entera"
   },
@@ -1253,48 +2282,6 @@
     "search_term": "leche entera"
   },
   {
-    "store": "Bonarea",
-    "product": "Leche entera paq. de 6 brics",
-    "price": 5.94,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Lidl",
-    "product": "Mini tarta de chocolate y pistacho",
-    "price": 5.99,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Leche entera sin lactosa Hacendado",
-    "price": 6.18,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Alcampo",
-    "product": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1l.",
-    "price": 7.08,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Dia",
-    "product": "Leche entera Asturiana pack 6 x 1 L",
-    "price": 7.44,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "LLET NOSTRA Llet sencera 6x1L en cartró",
-    "price": 7.74,
-    "unit": "",
-    "search_term": "leche entera"
-  },
-  {
     "store": "Lidl",
     "product": "Foie gras entero de pato",
     "price": 7.79,
@@ -1302,37 +2289,744 @@
     "search_term": "leche entera"
   },
   {
+    "store": "Dia",
+    "product": "Leche semidesnatada Dia Láctea 1 L",
+    "price": 0.83,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche semidesnatada",
+    "price": 0.83,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche semidesnatada Alipende 1L",
+    "price": 0.83,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Aldi",
+    "product": "Leche semidesnatada sin lactosa",
+    "price": 0.94,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Asturiana 1l semidesnatada",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Leche Pascual Semi 1,5l",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Lata de paté para perro",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
     "store": "Bonpreu",
-    "product": "Poma Golden Km0 1 u.",
-    "price": 0.39,
+    "product": "STARBUCKS Càpsules de cafè Espresso Roast intensitat 11",
+    "price": 3.99,
     "unit": "",
-    "search_term": "manzanas"
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "L.R. Leche semidesnatada 6 x 1 l.",
+    "price": 4.92,
+    "unit": "",
+    "search_term": "leche semidesnatada"
   },
   {
     "store": "Mercadona",
-    "product": "Manzana roja dulce",
-    "price": 0.4,
+    "product": "Leche semidesnatada Hacendado",
+    "price": 4.98,
     "unit": "",
-    "search_term": "manzanas"
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+    "price": 4.98,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Lidl",
+    "product": "Crema untable de pistacho",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+    "price": 5.28,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche semidesnatada paq. de 6 brics",
+    "price": 5.34,
+    "unit": "",
+    "search_term": "leche semidesnatada"
   },
   {
     "store": "Mercadona",
-    "product": "Manzana Golden",
-    "price": 0.44,
+    "product": "Leche semidesnatada sin lactosa Hacendado",
+    "price": 5.64,
     "unit": "",
-    "search_term": "manzanas"
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Alcampo",
+    "product": "CENTRAL LECHERA ASTURIANA Leche de vaca semidesnatada de origen español 6 x 1 l.",
+    "price": 6.24,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Leche semidesnatada Asturiana pack 6 x 1 L",
+    "price": 6.54,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche sin lactosa Semidesnatada paq. de 6 brics",
+    "price": 7.02,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Leche semidesnatada Calcio paq. de 6 brics",
+    "price": 7.2,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "DOLCE GUSTO Càpsules de cafè Espresso Intens",
+    "price": 8.55,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "DOLCE GUSTO Càpsules de cafè amb llet",
+    "price": 8.55,
+    "unit": "",
+    "search_term": "leche semidesnatada"
+  },
+  {
+    "store": "Dia",
+    "product": "Lechuga iceberg lavada Dia Vegecampo 200 g",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lechuga iceberg cortada y lavada",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lechuga iceberg Alipende 250g",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lechuga Iceberg",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Dia",
+    "product": "Corazón de lechuga romana unidad",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Lechuga romana Carrefour El Mercado 200 g",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Dia",
+    "product": "Lechuga iceberg unidad",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lechuga iceberg 450g",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lechuga iceberg",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Aldi",
+    "product": "Lechuga romana",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Corazones de lechuga romana Carrefour El Mercado 2 uds",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lechugas corazón romana",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lechuga bolsa 2uds",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lechuga corazón",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lechuga corazones de romana",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Sándwich de atún con huevo y lechuga Carrefour 200 g.",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Lidl",
+    "product": "Huerto urbano con ruedas",
+    "price": 21.99,
+    "unit": "",
+    "search_term": "lechuga"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Alubias cocidas categoría extra Classic Carrefour 400 g.",
+    "price": 0.69,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Alubia cocida blanca Hacendado",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Alubia cocida en frasco de cristal",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Dia",
+    "product": "Alubias blancas cocidas Dia Vegecampo 400 g",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Alubia blanca cocida Alipende 400g",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Garbanzo cocido Hacendado",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Garbanzo cocido en frasco de cristal",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Dia",
+    "product": "Garbanzos cocidos Dia Vegecampo 400 g",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lenteja cocida en frasco de cristal",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lenteja cocida Hacendado",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Lentejas cocidas categoría extra Classic Carrefour sin sal añadida 400 g.",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Dia",
+    "product": "Lentejas cocidas Dia Vegecampo 400 g",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lenteja cocida Alipende 400g",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Alubias rojas cocidas Classic Carrefour 400 g.",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Lenteja pardina cocida Luengo 400g",
+    "price": 1.3,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pistachos recubiertos de chocolate negro",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "legumbres cocidas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Vinagre de limpieza multiusos Carrefour Essential 1 l.",
+    "price": 0.9,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Aldi",
+    "product": "Limpiacristales multiusos",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Limpiacristales y multiusos Bosque Verde",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Limpiacristales multiusos Carrefour Expert 1 l.",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Dia",
+    "product": "Limpiacristales Dia Super Paco 1 L",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Limpiacristales Lanta 1l pistola",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Limpiacristales Bosque Verde",
+    "price": 1.9,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Limpiacristales con mango Bosque Verde",
+    "price": 2.6,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Limpiacristales Cristalino 750ml pistola",
+    "price": 2.65,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Dia",
+    "product": "Limpiacristales Cristasol 750 ml",
+    "price": 2.82,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Limpiacristales Cristasol 1,25l",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Limpiador desinfectante multiusos eucaliptus Sanytol 750 ml.",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Asevi limpiacristales chimenea",
+    "price": 2.98,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Lidl",
+    "product": "Limpiacristales para baño / Organizador de baño / Dispensador de jabón",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Detergente Limpiacristales WV50 62957720 KarcherD                      ",
+    "price": 7.34,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Limpiacristales inoxidable 35cm 88035",
+    "price": 14.69,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Lidl",
+    "product": "Robot limpiacristales »SFSR 72 A1«",
+    "price": 89.99,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Lidl",
+    "product": "Robot limpiacristales »WINBOT W2 PRO OMNI«",
+    "price": 388.99,
+    "unit": "",
+    "search_term": "limpiacristales"
+  },
+  {
+    "store": "Dia",
+    "product": "Filete de lomo tierno marinado Selección de Dia bandeja 300 g",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lomo de cerdo cocido Hacendado finas lonchas",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lomo de cerdo marinado empanado sin gluten",
+    "price": 3.2,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Dia",
+    "product": "Filete de cinta de lomo Selección de Dia 500 g aprox.",
+    "price": 3.6,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lomo de cerdo fileteado",
+    "price": 4.21,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Aldi",
+    "product": "Filete de lomo de cerdo empanado crujiente",
+    "price": 4.25,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Cabeza de lomo de cerdo con hueso fileteada",
+    "price": 4.64,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Lomo de cerdo trozo",
+    "price": 4.95,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Lomo de cerdo adobado",
+    "price": 5.25,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cinta de lomo adobada de cerdo duroc Alipende 600g aproximadamente",
+    "price": 5.39,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Lomo caña entero de cerdo extra",
+    "price": 5.59,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Dia",
+    "product": "Cinta de lomo adobada Selección de Dia 900 g aprox.",
+    "price": 6.74,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cinta de lomo adobada cerdo 50% duroc",
+    "price": 8.99,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Cinta de lomo fresca de cerdo duroc",
+    "price": 8.99,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Lomitos salmón ahumado",
+    "price": 12.99,
+    "unit": "",
+    "search_term": "lomo de cerdo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Magdalenas de chocolate",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Bizcocho cortadillo Alipende baño cacao 250g",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Magdalenas de huevo",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Dia",
+    "product": "Magdalenas valencianas El Molino de Dia 350 g",
+    "price": 1.25,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Magdalenas valencianas",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Magdalenas Arenas 300g",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Dia",
+    "product": "Magdalenas clásicas El Molino de Dia 515 g",
+    "price": 1.87,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Magdalenas envasadas",
+    "price": 1.92,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Magdalenas Hacendado",
+    "price": 2.0,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Magdalenas valencianas",
+    "price": 2.39,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Dia",
+    "product": "Magdalenas estilo tradicional El Molino de Dia 434 g",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Magdalenas Laly sin lactosa y sin azúcar 450g",
+    "price": 2.65,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Magdalenas supremas",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Magdalenas con azúcar",
+    "price": 2.7,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Magdalenas con pepitas de chocolate",
+    "price": 3.1,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde de silicona para 12 magdalenas",
+    "price": 9.99,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Molde de silicona para magdalenas 24 unidades, aprox. Ø 3,5 cm.",
+    "price": 12.99,
+    "unit": "",
+    "search_term": "magdalenas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Bandeja para magdalenas / Molde para postres, con tapa de transporte.",
+    "price": 25.49,
+    "unit": "",
+    "search_term": "magdalenas"
   },
   {
     "store": "Mercadona",
     "product": "Manzana roja acidulce",
     "price": 0.65,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "Poma Pink Lady 1 u.",
-    "price": 0.71,
     "unit": "",
     "search_term": "manzanas"
   },
@@ -1344,44 +3038,9 @@
     "search_term": "manzanas"
   },
   {
-    "store": "Dia",
-    "product": "Pera conferencia bandeja 700 g",
-    "price": 1.15,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
     "store": "Lidl",
     "product": "Mini mousse de pato en tarro cerámico",
     "price": 1.29,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Alcampo",
-    "product": "Manzanas gala 1 kg.",
-    "price": 1.44,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Dia",
-    "product": "Manzana roja granel 800 g aprox.",
-    "price": 1.75,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Alcampo",
-    "product": "Manzanas Golden 1 kg.",
-    "price": 1.75,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Alcampo",
-    "product": "Manzanas golden al peso.",
-    "price": 1.79,
     "unit": "",
     "search_term": "manzanas"
   },
@@ -1400,22 +3059,8 @@
     "search_term": "manzanas"
   },
   {
-    "store": "Lidl",
-    "product": "Champú",
-    "price": 1.95,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
     "store": "Dia",
     "product": "Manzana roja dulce 1 Kg",
-    "price": 1.99,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Aldi",
-    "product": "Manzana",
     "price": 1.99,
     "unit": "",
     "search_term": "manzanas"
@@ -1424,13 +3069,6 @@
     "store": "Ahorramas",
     "product": "Manzana golden",
     "price": 2.59,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "LA COLLITA Poma golden de Girona Km0 bossa 1,5 kg",
-    "price": 2.69,
     "unit": "",
     "search_term": "manzanas"
   },
@@ -1449,20 +3087,6 @@
     "search_term": "manzanas"
   },
   {
-    "store": "Alcampo",
-    "product": "Manzana Granny Smith al peso.",
-    "price": 2.79,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Alcampo",
-    "product": "Manzana Fuji al peso.",
-    "price": 2.89,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
     "store": "Ahorramas",
     "product": "Manzana roja",
     "price": 2.99,
@@ -1477,30 +3101,9 @@
     "search_term": "manzanas"
   },
   {
-    "store": "Ahorramas",
-    "product": "Manzana reineta",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Manzana Granny Smith",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
     "store": "Bonarea",
     "product": "Manzana granny smith",
     "price": 3.31,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Manzana golden extra",
-    "price": 3.48,
     "unit": "",
     "search_term": "manzanas"
   },
@@ -1520,31 +3123,528 @@
   },
   {
     "store": "Bonarea",
-    "product": "Manzana gala bolsa",
-    "price": 3.9,
-    "unit": "",
-    "search_term": "manzanas"
-  },
-  {
-    "store": "Bonarea",
     "product": "Sidra Ladrón de Manzanas paq. de 6 u.",
     "price": 6.9,
     "unit": "",
     "search_term": "manzanas"
   },
   {
-    "store": "Bonpreu",
-    "product": "BONPREU Pa de motlle",
-    "price": 0.8,
+    "store": "Lidl",
+    "product": "Palitos de merluza a la romana",
+    "price": 2.15,
     "unit": "",
-    "search_term": "pan de molde"
+    "search_term": "merluza"
   },
   {
-    "store": "Bonpreu",
-    "product": "BONPREU Pa de motlle 100% integral",
-    "price": 0.9,
+    "store": "Lidl",
+    "product": "Burger de salmón y merluza",
+    "price": 2.35,
     "unit": "",
-    "search_term": "pan de molde"
+    "search_term": "merluza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Medallones de merluza",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tronquitos de merluza",
+    "price": 3.59,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Dia",
+    "product": "Filetes de merluza Argentina sin piel Dia Mari Marinera 400 g",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Merluza rebozada",
+    "price": 3.9,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Dia",
+    "product": "Porciones de merluza del cabo MSC Dia Mari Marinera 400 g",
+    "price": 3.92,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Merluza extra en rodajas",
+    "price": 3.96,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Merluza empanada pan fino Hacendado ultracongelada",
+    "price": 4.0,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Varitas de merluza",
+    "price": 4.25,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Lomos de merluza Carrefour Extra 400 g",
+    "price": 4.49,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Filetes de merluza",
+    "price": 5.29,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Filetes de merluza del Cabo sin piel Hacendado ultracongelados",
+    "price": 5.3,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Filetes de merluza del Cabo",
+    "price": 5.39,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Filete de Merluza del Cabo Carrefour 600 g.",
+    "price": 5.59,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Dia",
+    "product": "Filetes de merluza del cabo sin piel MSC Dia Mari Marinera 600 g",
+    "price": 5.6,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Filete de merluza Antonio&Ricardo sin piel Marca 600g",
+    "price": 5.6,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Corazón filete merluza Pescanova 500g sin piel",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Corazones de filete de merluza congelados Pescanova 500 g.",
+    "price": 7.99,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Lidl",
+    "product": "Porciones de merluza",
+    "price": 10.2,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Merluza por medias o enteras",
+    "price": 18.99,
+    "unit": "",
+    "search_term": "merluza"
+  },
+  {
+    "store": "Aldi",
+    "product": "Muslo de pavo braseado y ahumado",
+    "price": 2.29,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Muslos de pollo deshuesados con piel",
+    "price": 2.78,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Muslos con patatas y cebolla",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Mini muslo de pollo 98% La Carloteña asado al horno",
+    "price": 3.25,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Muslos de pollo amarillo",
+    "price": 3.34,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Muslos de pollo",
+    "price": 3.42,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Jamoncitos de Pollo Congelado 1 kg",
+    "price": 3.5,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Jamoncitos de pollo Carrefour El Mercado 1 kg aprox",
+    "price": 3.74,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Jamoncitos de pollo Selección de Dia 1 Kg aprox.",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pollo marinado de finas hierbas",
+    "price": 4.29,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "LOTE 2kg de contramuslos de pollo",
+    "price": 6.29,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Contramuslos de pollo",
+    "price": 6.29,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo",
+    "price": 6.52,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pollo asado troceado Chimichurri",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Mini redondo de muslo de pollo deshuesado",
+    "price": 7.35,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Pollo asado troceado Bonchef 1,4 Kg aprox.",
+    "price": 9.79,
+    "unit": "",
+    "search_term": "muslos de pollo"
+  },
+  {
+    "store": "Dia",
+    "product": "Naranja selección granel 1 Kg aprox.",
+    "price": 2.19,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Naranjas",
+    "price": 2.29,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Naranjas confitadas con chocolate",
+    "price": 2.49,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Naranja confitada Choco Orange bañada con chocolate negro Hacendado",
+    "price": 2.6,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Naranja extra",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Naranja Fontestad",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Refresco naranja paq. de 6 latas",
+    "price": 3.0,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Dia",
+    "product": "Naranja de mesa malla 2 Kg",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Naranja Fontestad malla 2kg",
+    "price": 3.48,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Naranjas",
+    "price": 4.65,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Naranja de mesa malla 3kg",
+    "price": 4.65,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Dia",
+    "product": "Naranja malla 4 Kg",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vestido de hombros caídos para mujer",
+    "price": 5.49,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Naranja malla",
+    "price": 6.2,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Camiseta de fútbol de cuello en V para hombre",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Lidl",
+    "product": "Picadora Quick, de 5 piezas, naranja.",
+    "price": 14.99,
+    "unit": "",
+    "search_term": "naranjas"
+  },
+  {
+    "store": "Aldi",
+    "product": "Barra de pan",
+    "price": 0.45,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Barra de pan",
+    "price": 0.5,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Dia",
+    "product": "Barra de pan Diana El Molino de Dia 250 g",
+    "price": 0.5,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Barra horno super 250g",
+    "price": 0.5,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Barra de pan campesina masa madre",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Barra rústica 100% integral",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Dia",
+    "product": "Chapata El Molino de Dia 300 g",
+    "price": 0.69,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Barra de pan rústica",
+    "price": 0.7,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Barritas de pan Velarte con pipas",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Dia",
+    "product": "Barra de pan peregrina El Molino de Dia 250 g",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Barra campesina 240g",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Barra de pan con masa madre Carrefour 1 ud.",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Aldi",
+    "product": "Barra con cereales",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan redondo",
+    "price": 1.25,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Barra grande extra Carrefour 1 ud",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Barra de pan 100% integral 250g",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pan proteico",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Barra de pan antaño 1 ud.",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Barra magnética",
+    "price": 8.99,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cortina de aspecto de pana, 135 x 245 cm",
+    "price": 21.99,
+    "unit": "",
+    "search_term": "pan de barra"
+  },
+  {
+    "store": "Lidl",
+    "product": "Barra de equilibrio",
+    "price": 24.99,
+    "unit": "",
+    "search_term": "pan de barra"
   },
   {
     "store": "Ahorramas",
@@ -1554,22 +3654,8 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Pan de molde clásico con corteza 600 g.",
-    "price": 1.04,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
     "store": "Mercadona",
     "product": "Pan de molde blanco sin corteza Hacendado",
-    "price": 1.05,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BONPREU Pa de motlle sense crosta",
     "price": 1.05,
     "unit": "",
     "search_term": "pan de molde"
@@ -1585,34 +3671,6 @@
     "store": "Aldi",
     "product": "Pan de molde integral sin corteza",
     "price": 1.05,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Pan de molde blanco sin corteza 450 g.",
-    "price": 1.05,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Pan de molde 100% integral sin corteza Hacendado",
-    "price": 1.1,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Pan de molde",
-    "price": 1.1,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Dia",
-    "product": "Pan de molde trigo integral sin corteza El Molino de Dia 450 g",
-    "price": 1.1,
     "unit": "",
     "search_term": "pan de molde"
   },
@@ -1638,13 +3696,6 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Bonpreu",
-    "product": "BONPREU Pa de motlle familiar",
-    "price": 1.15,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
     "store": "Dia",
     "product": "Pan de molde blanco El Molino de Dia 820 g",
     "price": 1.15,
@@ -1659,37 +3710,9 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Pan de molde integral con corteza 600 g.",
-    "price": 1.23,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
     "store": "Dia",
     "product": "Pan de molde trigo integral El Molino de Dia 820 g",
     "price": 1.29,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Dia",
-    "product": "Pan de molde espelta integral El Molino de Dia 400 g",
-    "price": 1.29,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Alcampo",
-    "product": "PRODUCTO ALCAMPO Pan de molde blanco con corteza 1000 g.",
-    "price": 1.4,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Pan de molde semillas y pipas de calabaza Hacendado",
-    "price": 1.55,
     "unit": "",
     "search_term": "pan de molde"
   },
@@ -1701,13 +3724,6 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Aldi",
-    "product": "Pan de molde de semillas y pipas",
-    "price": 1.79,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
     "store": "Bonarea",
     "product": "Pan de molde rústico",
     "price": 1.85,
@@ -1715,22 +3731,8 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Aldi",
-    "product": "Pan de molde sin gluten",
-    "price": 1.89,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
     "store": "Ahorramas",
     "product": "Pan de molde Bimbo 700g familiar",
-    "price": 1.89,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Pan de molde sin corteza Bimbo 450 g",
     "price": 1.89,
     "unit": "",
     "search_term": "pan de molde"
@@ -1743,6 +3745,13 @@
     "search_term": "pan de molde"
   },
   {
+    "store": "Carrefour",
+    "product": "Pan de molde sin corteza Bimbo 500 g.",
+    "price": 2.09,
+    "unit": "",
+    "search_term": "pan de molde"
+  },
+  {
     "store": "Bonarea",
     "product": "Pan de molde 50% centeno con semillas",
     "price": 2.1,
@@ -1750,44 +3759,16 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Bonarea",
-    "product": "Pan de molde sin corteza",
-    "price": 2.4,
+    "store": "Carrefour",
+    "product": "Pan molde integral con 8 cereales y semillas Bimbo Silueta 600 g.",
+    "price": 2.75,
     "unit": "",
     "search_term": "pan de molde"
   },
   {
-    "store": "Alcampo",
-    "product": "BIMBO Pan estilo artesano 500 g.",
-    "price": 2.85,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Bonpreu",
-    "product": "BIMBO Pa de motlle artesà",
+    "store": "Carrefour",
+    "product": "Pan de molde rebanada estilo artesano Bimbo 500 g.",
     "price": 2.99,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Pan de molde artesencia Bimbo 500g",
-    "price": 2.99,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Lidl",
-    "product": "Molde desmoldable / Molde para plumcake / Molde para Gugelhupf",
-    "price": 4.49,
-    "unit": "",
-    "search_term": "pan de molde"
-  },
-  {
-    "store": "Lidl",
-    "product": "Moldes para pan",
-    "price": 5.99,
     "unit": "",
     "search_term": "pan de molde"
   },
@@ -1813,18 +3794,641 @@
     "search_term": "pan de molde"
   },
   {
-    "store": "Dia",
-    "product": "Pechuga de pollo 95% Dia Nuestra Alacena 120 g",
-    "price": 1.99,
+    "store": "Bonarea",
+    "product": "Papel higiénico renova",
+    "price": 1.09,
     "unit": "",
-    "search_term": "pechuga de pollo"
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Aldi",
+    "product": "Papel higiénico húmedo sensitive",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Aldi",
+    "product": "Papel higiénico húmedo aloe vera",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Papel higiénico húmedo aloe vera Carrefour 100 ud.",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "papel higiénico"
   },
   {
     "store": "Mercadona",
-    "product": "Pechuga de pollo braseada Hacendado lonchas",
-    "price": 2.3,
+    "product": "Papel higiénico húmedo WC Bosque Verde",
+    "price": 1.55,
     "unit": "",
-    "search_term": "pechuga de pollo"
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Papel higiénico húmedo Lanta 100 uds",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Dia",
+    "product": "Papel higiénico Dia La Llama 12 unidades",
+    "price": 2.35,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Dia",
+    "product": "Papel higiénico doble rollo Dia La Llama 6 unidades",
+    "price": 2.35,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Papel higiénico decorado 3 capes",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Papel higiénico Suave Bosque Verde",
+    "price": 3.7,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Papel higiénico doble capa 250 servicios paq. 12",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Lidl",
+    "product": "Papel higiénico",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Papel higiénico Lanta 12 rollos 3 capas perfumado",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Aldi",
+    "product": "Papel higiénico reciclado",
+    "price": 4.19,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Papel higiénico compact doble rollo Carrefour 12 rollos.",
+    "price": 4.39,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Papel higiénico Doble Rollo Bosque Verde",
+    "price": 4.6,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Dia",
+    "product": "Papel higiénico doble rollo Dia La Llama 12 unidades",
+    "price": 4.6,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Papel higiénico Lanta 12 rollos doble rollo",
+    "price": 4.6,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Papel higiénico 3 capas ultra confort Carrefour 12 rollos. ",
+    "price": 5.85,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Lidl",
+    "product": "Escobilla WC / Caja para pañuelos / Portarrollos de papel higiénico ",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Lidl",
+    "product": "Papel higiénico original",
+    "price": 6.99,
+    "unit": "",
+    "search_term": "papel higiénico"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Dentífrico Herbal 10 Soft Carrefour 75 ml.",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Dentífrico protect caries Soft Carrefour 75 ml.",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Dia",
+    "product": "Pasta de dientes herbal Imaqe 75 ml",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Dentífrico Bicarbonato blanqueador Deliplus",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Dia",
+    "product": "Pasta de dientes blanqueadora Imaqe 75 ml",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Signal pasta de dientes blanqueadora",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta de dientes active fresh tubo 125 ml",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Dentífrico Triple Acción Colgate menta intensa",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Dentífrico triple action sabor menta intenso Colgate 100 ml.",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Dia",
+    "product": "Pasta de dientes Colgate Triple Action 100 ml",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pasta de dientes Colgate Triple Action anticaries y frescor a menta 100ml",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Vademecum dentífrico encías.",
+    "price": 2.4,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Dentífrico Pro-Expert Oral-B sabor menta especiada",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pasta de dientes Sensodyne 75ml blanqueante",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pasta de dientes Sensodyne 75ml protección diaria",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cepillo de dientes eléctrico sónico »CBSZB 3.7 A1«",
+    "price": 19.99,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Lidl",
+    "product": "ORAL-B Cepillo de dientes eléctrico Pro Vitality",
+    "price": 23.99,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cepillo de dientes eléctrico oscilante prémium",
+    "price": 24.99,
+    "unit": "",
+    "search_term": "pasta de dientes"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta espaguetis Carrefour Classic 500 g.",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti fino Hacendado",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Espagueti Dia Al Diante 500 g",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Tallarines Dia Al Diante 500 g",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta espaguetis cocción rápida Carrefour Classic 500 g.",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Espaguetis Nº3 Gallo 400g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta espaguetis Carrefour Classic 1 kg.",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Spaghetti integral Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Dia",
+    "product": "Macarrones Dia Al Diante 1 Kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Spaghetti Alipende 1kg",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta spaguetti La moianesa con tinta de sepia",
+    "price": 1.35,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Spaghetti Garofalo 500g",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Accesorios de cocina",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Espaguetis con tomate y setas",
+    "price": 1.64,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta spaguetti Gallo sense gluten",
+    "price": 2.45,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de soja ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de edamame ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Aldi",
+    "product": "Espaguetis de soja negra ecológicos",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Lidl",
+    "product": "Olla para espárragos / Olla para espaguetis / Vaporeera ecológica, 3 pzas.",
+    "price": 21.99,
+    "unit": "",
+    "search_term": "pasta espaguetis"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta macarrón La moianesa integral",
+    "price": 0.77,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Aldi",
+    "product": "Macarrón rayado",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta macarrón pluma",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pasta tiburón Hacendado",
+    "price": 0.85,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pasta macarrón Gallo pluma nº6",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Dia",
+    "product": "Plumas N.º 6 Gallo 400 g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pluma Nº6 Gallo 400g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta macarrones Carrefour Classic 1 kg.",
+    "price": 1.09,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Macarrón Hacendado",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pluma Alipende 1kg nº5",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Macarrones Garofalo 500g",
+    "price": 1.39,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Hélices con vegetales Hacendado",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta macarrones penne rigate nº 73 Barilla 500 g.",
+    "price": 1.69,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Dia",
+    "product": "Pasta penne rigate Barilla 500 g",
+    "price": 1.77,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pasta macarrones de maíz y arroz Carrefour Classic No Gluten 500 g.",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Lidl",
+    "product": "Paños de cocina 50 x 70 cm, 2 unidades",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Lidl",
+    "product": "Sartén de acero inoxidable Duetto Bakelite »G7480435«, Ø 28cm.",
+    "price": 22.99,
+    "unit": "",
+    "search_term": "pasta macarrones"
+  },
+  {
+    "store": "Lidl",
+    "product": "Patatas fritas",
+    "price": 1.43,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Patatas para microondas",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Cebolla Carrefour 1 kg",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Patata baby al vapor para microondas El Mercado Carrefour bolsa de 400 g",
+    "price": 1.5,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Patata",
+    "price": 1.59,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Patatas fritas clásicas Hacendado",
+    "price": 1.8,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Dia",
+    "product": "Patatas granel 1 Kg aprox.",
+    "price": 1.89,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Patatas fritas Alipende pack-2x200g artesana",
+    "price": 2.4,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Boniato Carrefour 1 kg aprox",
+    "price": 2.49,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Dia",
+    "product": "Patatas 4 Kg",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Dia",
+    "product": "Patatas para freir 2 Kg",
+    "price": 3.89,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Patata malla",
+    "price": 4.4,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Patata agria",
+    "price": 4.8,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Patatas",
+    "price": 5.3,
+    "unit": "",
+    "search_term": "patatas"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Patata malla 5kg",
+    "price": 5.3,
+    "unit": "",
+    "search_term": "patatas"
   },
   {
     "store": "Mercadona",
@@ -1855,44 +4459,9 @@
     "search_term": "pechuga de pollo"
   },
   {
-    "store": "Bonarea",
-    "product": "Pechuga de pollo amarillo fileteado empanado",
-    "price": 3.67,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Pechuga de pollo fileteada 65% cereales",
-    "price": 3.76,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Aldi",
-    "product": "Pechuga de pollo empanada crujiente",
-    "price": 3.78,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
     "store": "Lidl",
     "product": "Nuggets de pechuga de pollo",
     "price": 3.79,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Pechuga de pollo marinada",
-    "price": 3.99,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Mercadona",
-    "product": "Filetes pechuga de pollo corte fino",
-    "price": 4.1,
     "unit": "",
     "search_term": "pechuga de pollo"
   },
@@ -1904,9 +4473,16 @@
     "search_term": "pechuga de pollo"
   },
   {
-    "store": "Lidl",
-    "product": "Pollo marinado de finas hierbas",
-    "price": 4.29,
+    "store": "Carrefour",
+    "product": "Pechuga de pollo certificado en filetes Carrefour 500 g aprox",
+    "price": 4.72,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Filete de pechuga de pollo blanco",
+    "price": 4.75,
     "unit": "",
     "search_term": "pechuga de pollo"
   },
@@ -1926,15 +4502,15 @@
   },
   {
     "store": "Bonarea",
-    "product": "Pechuga de pollo amarillo entera",
-    "price": 5.12,
+    "product": "Filete de pechuga de pollo amarillo",
+    "price": 5.01,
     "unit": "",
     "search_term": "pechuga de pollo"
   },
   {
-    "store": "Dia",
-    "product": "Pechugas fileteadas Selección de Dia bandeja 650 g aprox.",
-    "price": 5.19,
+    "store": "Carrefour",
+    "product": "Pechuga de pollo corte extrafino 320 g",
+    "price": 5.09,
     "unit": "",
     "search_term": "pechuga de pollo"
   },
@@ -1953,30 +4529,16 @@
     "search_term": "pechuga de pollo"
   },
   {
-    "store": "Ahorramas",
-    "product": "LOTE 1kg pechugas de pollo + 1kg de muslos",
-    "price": 6.49,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "LOTE 1 kg de pechugas + 1 kg de jamoncitos + 1 kg de contramuslos de pollo",
-    "price": 6.52,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
-    "store": "Lidl",
-    "product": "Pollo asado troceado Chimichurri",
-    "price": 6.99,
-    "unit": "",
-    "search_term": "pechuga de pollo"
-  },
-  {
     "store": "Mercadona",
     "product": "Pechugas de pollo enteras congeladas",
     "price": 7.32,
+    "unit": "",
+    "search_term": "pechuga de pollo"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pechuga de pollo en filetes Carrefour El Mercado 1 kg aprox",
+    "price": 7.59,
     "unit": "",
     "search_term": "pechuga de pollo"
   },
@@ -2002,16 +4564,856 @@
     "search_term": "pechuga de pollo"
   },
   {
-    "store": "Aldi",
-    "product": "Tomate frito",
-    "price": 0.74,
+    "store": "Mercadona",
+    "product": "Pera Ercolina",
+    "price": 0.29,
     "unit": "",
-    "search_term": "tomate frito"
+    "search_term": "peras"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Pera Conferencia",
+    "price": 0.43,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Dia",
+    "product": "Pera conferencia bandeja 700 g",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Lidl",
+    "product": "Mermelada",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Dia",
+    "product": "Pera Ercolina bandeja 500 g",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Aldi",
+    "product": "Pera",
+    "price": 1.59,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pera Rocha",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Lidl",
+    "product": "Pera conferencia granel",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Dentalife snacks dentals per a gossos petits",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Dia",
+    "product": "Pera D.O.P. Rincon de soto granel 800 g aprox.",
+    "price": 2.23,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Peras Conferencia",
+    "price": 2.51,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pera conference extra",
+    "price": 2.51,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pera ercolini",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pera limonera Círculo de Calida a granel 1 kg aprox",
+    "price": 2.8,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Pera ercolina Carrefour  a granel 1 kg aprox",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "peras"
   },
   {
     "store": "Ahorramas",
-    "product": "Tomate frito origen nacional sin gluten Alipende 550g",
-    "price": 0.88,
+    "product": "Pera conferencia",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pera de agua",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Manzana roja 1,5 kg aprox",
+    "price": 3.23,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pera ercolina",
+    "price": 3.49,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Aldi",
+    "product": "Perlas de queso de cabra con fruta",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "peras"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Banana",
+    "price": 0.28,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Plátano de Canarias IGP",
+    "price": 0.51,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Aldi",
+    "product": "Yogur de plátano con grageas de chocolate",
+    "price": 0.66,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Plátano macho",
+    "price": 0.84,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur semidesnatado sabor plátano 4 u. de 125 g",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Aldi",
+    "product": "Yogur de plátano con mezcla de cereales con chocolate con leche",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Dia",
+    "product": "Banana granel 900 g aprox.",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Patatas de corte fino",
+    "price": 1.43,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Banana a granel 1 Kg aprox",
+    "price": 1.49,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Frutas bebible de fresa y plátano",
+    "price": 1.59,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Plátano de Canarias IGP bolsa de 900 g aprox",
+    "price": 2.84,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Lidl",
+    "product": "Patatas de corte grueso",
+    "price": 2.92,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Plátano de Canarias IGP Carrefour Bio 800g aprox",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Plátano de Canarias",
+    "price": 2.96,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Dia",
+    "product": "Plátano de Canarias El afortunado 850 g aprox.",
+    "price": 2.97,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Plátano macho 2 u.",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Plátano canario bolsa",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Plátano Canario bandeja",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Dia",
+    "product": "Plátano de canarias 1 Kg aprox.",
+    "price": 3.2,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Plátano canario Gabaceras",
+    "price": 3.48,
+    "unit": "",
+    "search_term": "plátanos"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Queso curado y cheddar Hacendado en dados",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Aldi",
+    "product": "Patatas fritas sabor vinagre balsámico y queso curado",
+    "price": 1.43,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Lidl",
+    "product": "Surtido de mantecados y polvorones",
+    "price": 2.79,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Dia",
+    "product": "Queso curado Dia El Cencerro 250 g",
+    "price": 2.85,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Dia",
+    "product": "Queso de oveja curado Dia El Cencerro 200 g",
+    "price": 2.89,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Dia",
+    "product": "Queso mezcla viejo Dia El Cencerro 200 g",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Queso mezcla curado 300g",
+    "price": 3.42,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Lidl",
+    "product": "Queso de cabra",
+    "price": 3.49,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Formatge curat",
+    "price": 3.49,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Queso de oveja viejo en cuña Carrefour Classic 250 g. ",
+    "price": 3.65,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Aldi",
+    "product": "Queso curado de oveja con pesto",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Alcampo",
+    "product": "GARCÍA BAQUERO Queso viejo tostado 200 g.",
+    "price": 3.87,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Formatge curat a talls",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Alcampo",
+    "product": "RIBETO Cuña de queso curado elaborado de forma artesanal RIBETO 375 g.",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Alcampo",
+    "product": "SAN VICENTE Queso mezcla curado SAN VIECENTE 375 g.",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Queso ibérico viejo Extra Carrefour cuña cortada 250 g.",
+    "price": 4.15,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Queso curado cortado",
+    "price": 4.22,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Queso viejo tostado Cerrato 300g",
+    "price": 4.29,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Queso curado ibérico Conde Duque trufa",
+    "price": 4.55,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Queso curado mezcla Hacendado",
+    "price": 4.67,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Queso curado mezcla Hacendado cortado en cuñitas",
+    "price": 4.69,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "BONPREU Formatge anyenc",
+    "price": 4.79,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Queso curado en cuña",
+    "price": 5.13,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Queso de mezcla curado en cuña cortada Gran Capitán 210 g",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Lidl",
+    "product": "Langostino crudo",
+    "price": 7.59,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Aldi",
+    "product": "Queso curado",
+    "price": 9.79,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Queso curado Alipende",
+    "price": 13.5,
+    "unit": "",
+    "search_term": "queso curado"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cola Zero",
+    "price": 0.26,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Cola Carrefour Classic' zero lata 33 cl.",
+    "price": 0.34,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Aldi",
+    "product": "Refresco de cola",
+    "price": 0.34,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Aldi",
+    "product": "Refresco de cola Zero azúcar",
+    "price": 0.34,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Cola Carrefour Classic' zero azúcar sin cafeína lata 33 cl.",
+    "price": 0.35,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Cola Carrefour Classic' zero botella 2 l.",
+    "price": 0.78,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Refresco Green Cola",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Refresco Doble Zero Green Cola sin cafeína",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Dia",
+    "product": "Refresco de cola Dia Hola Cola 2 L",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Aldi",
+    "product": "Refresco de cola light",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Refresco cola Coca-Cola lata 33cl light",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Refresco cola Coca-Cola lata 33cl zero azúcar",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Dia",
+    "product": "Refresco de cola zero sin cafeína Dia Hola Cola 6 x 330 ml",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Refresco cola paq. de 6 latas",
+    "price": 2.88,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Dia",
+    "product": "Refresco de cola zero Dia Hola Cola 12 x 330 ml",
+    "price": 4.2,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Lidl",
+    "product": "Colacao original",
+    "price": 7.99,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Refresco Coca-Cola zero azúcar",
+    "price": 11.64,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Refresco Coca-Cola",
+    "price": 11.64,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Refresco cola Coca-Cola lata 33cl pack 12 zero azúcar",
+    "price": 11.64,
+    "unit": "",
+    "search_term": "refresco de cola"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Sal marina yodada fina Classic Carrefour 1 kg.",
+    "price": 0.38,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Aldi",
+    "product": "Sal marina  fina yodada",
+    "price": 0.38,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Sal fina",
+    "price": 0.4,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Sal marina refinada fina Carrefour 1 kg.",
+    "price": 0.4,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Dia",
+    "product": "Sal fina Dia 1 Kg",
+    "price": 0.4,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Sal fina Hacendado",
+    "price": 0.45,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Sal yodada fina Hacendado",
+    "price": 0.5,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Dia",
+    "product": "Sal fina Dia 250 g",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Sal Alipende 250g fina de mesa",
+    "price": 0.65,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Sal fina de mesa Hacendado",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Sal con yodo y flúor Costa",
+    "price": 0.8,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Dia",
+    "product": "Pechuga de pavo bajo en sal Dia Nuestra Alacena 200 g",
+    "price": 2.22,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pechuga pavo finas lonchas reducido en sal Alipende 200g",
+    "price": 2.22,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Sal en escamas natural pet",
+    "price": 2.42,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Sal fina rosada del Himalaya Roca 1 kg.",
+    "price": 3.75,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Pechuga pavo finas lonchas reducido en sal ElPozo pack 2 de 200g",
+    "price": 4.1,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Lidl",
+    "product": "Juego de molinillos de sal y pimienta",
+    "price": 7.99,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Lidl",
+    "product": "Ladepad Qi® Dual, 20 W.",
+    "price": 19.99,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Lidl",
+    "product": "Cubo de motricidad Cocina / Cubo de motricidad Banco de trabajo (Cubo de motricidad cocina)",
+    "price": 24.99,
+    "unit": "",
+    "search_term": "sal fina"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Queso fresco burgo sin lactosa 4 u. de 62,5 g",
+    "price": 1.55,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Queso fresco burratina",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Comida húmeda trocitos premium de salmón fresco y verduras para perro Miguau 400 g.",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Salmón noruego ahumado",
+    "price": 3.65,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Lidl",
+    "product": "Salmón noruego con sésamo",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Dia",
+    "product": "Lomos de salmón Dia Selección Mundial 250 g",
+    "price": 5.89,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Poke de Salmón Gimar 100g",
+    "price": 5.99,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Comida perro con salmón fresco, frutas y verduras adulto Supreme Compy",
+    "price": 6.0,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Dia",
+    "product": "Salmón salvaje MSC Dia Mari Marinera 360 g",
+    "price": 6.79,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Salmón porción Mowi bandeja",
+    "price": 7.2,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Lomo de salmón El Mercado pack de 3 unidades de 100 g",
+    "price": 8.95,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Aldi",
+    "product": "Solomillos de salmón",
+    "price": 9.49,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Dia",
+    "product": "Filete de salmón Selección de Dia 450 g aprox.",
+    "price": 10.35,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Salmón por medios o enteros peso aproximado pieza 4kg",
+    "price": 11.99,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Lidl",
+    "product": "Salmón pieza con piel",
+    "price": 15.99,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Salmón 3 kg aprox",
+    "price": 32.85,
+    "unit": "",
+    "search_term": "salmón fresco"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Tomate frito Carrefour Classic frasco 550 g.",
+    "price": 0.77,
     "unit": "",
     "search_term": "tomate frito"
   },
@@ -2024,22 +5426,15 @@
   },
   {
     "store": "Dia",
-    "product": "Tomate frito Dia Vegecampo 550 g",
-    "price": 0.89,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
-    "store": "Dia",
     "product": "Tomate frito Dia Vegecampo 3 x 215 g",
     "price": 0.95,
     "unit": "",
     "search_term": "tomate frito"
   },
   {
-    "store": "Aldi",
-    "product": "Tomate frito estilo casero",
-    "price": 0.99,
+    "store": "Carrefour",
+    "product": "Tomate frito Classic Carrefour pack 3 briks de 215 g.",
+    "price": 0.97,
     "unit": "",
     "search_term": "tomate frito"
   },
@@ -2051,9 +5446,23 @@
     "search_term": "tomate frito"
   },
   {
+    "store": "Lidl",
+    "product": "Tomate frito",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
     "store": "Ahorramas",
     "product": "Tomate frito origen nacional sin gluten Alipende p3 400g",
     "price": 1.25,
+    "unit": "",
+    "search_term": "tomate frito"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Tomate frito Classic Carrefour pack 3 briks de 390 g.",
+    "price": 1.26,
     "unit": "",
     "search_term": "tomate frito"
   },
@@ -2086,20 +5495,6 @@
     "search_term": "tomate frito"
   },
   {
-    "store": "Dia",
-    "product": "Tomate frito con aceite de oliva Dia Vegecampo 3 x 215 g",
-    "price": 1.4,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
-    "store": "Ahorramas",
-    "product": "Tomate frito casero en aceite oliva Alipende 350g",
-    "price": 1.5,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
     "store": "Aldi",
     "product": "Tomate frito ecológico",
     "price": 1.59,
@@ -2117,13 +5512,6 @@
     "store": "Bonarea",
     "product": "Tomate cherry",
     "price": 1.85,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
-    "store": "Lidl",
-    "product": "Mantecado de canela bolsa",
-    "price": 1.99,
     "unit": "",
     "search_term": "tomate frito"
   },
@@ -2150,22 +5538,8 @@
   },
   {
     "store": "Bonarea",
-    "product": "Tomate maduro",
-    "price": 4.36,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
-    "store": "Bonarea",
     "product": "Tomate rama",
     "price": 4.91,
-    "unit": "",
-    "search_term": "tomate frito"
-  },
-  {
-    "store": "Bonarea",
-    "product": "Tomate verde",
-    "price": 5.26,
     "unit": "",
     "search_term": "tomate frito"
   },
@@ -2175,5 +5549,642 @@
     "price": 9.99,
     "unit": "",
     "search_term": "tomate frito"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Tomate triturado Hacendado",
+    "price": 0.55,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate natural triturado",
+    "price": 0.55,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tomate entero pelado primera",
+    "price": 0.75,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Aldi",
+    "product": "Mayonesa",
+    "price": 1.15,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Aldi",
+    "product": "Tomates enteros pelados",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Lidl",
+    "product": "Bolitas de snack rellenas",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate pera bandeja 500 g",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Dia",
+    "product": "Tomate canario malla 750 g",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Tomate cherry 350 g",
+    "price": 2.0,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Tomates pera",
+    "price": 2.55,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate rojo rama",
+    "price": 2.69,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Lidl",
+    "product": "Sardinillas",
+    "price": 2.99,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Pelador tomates 14 cm 42043",
+    "price": 3.92,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate rosa",
+    "price": 4.69,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Tomate Cherokee",
+    "price": 4.69,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Tomate rosa Carrefour 1 kg aprox",
+    "price": 5.0,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Tomate cherry cocktail romántico Carrefour 300 g",
+    "price": 5.95,
+    "unit": "",
+    "search_term": "tomates"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Vino tinto Casón Histórico",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Dia",
+    "product": "Vino tinto Castillo de Velasco 1 L",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Vino tinto Don García brik 1l",
+    "price": 1.1,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Vino tinto Syrah",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Dia",
+    "product": "Vino tinto Crianza D.O. La Mancha Ribera de Algodor 75 cl",
+    "price": 1.75,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Vino tinto tempranillo syrah suave Caperucita tinta Torre Oria",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Vino tinto Merlot Mar de Uvas",
+    "price": 2.15,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Vino tinto garnacha roble Gran Closa DO Campo de Borja",
+    "price": 2.95,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Dia",
+    "product": "Vino tinto crianza D.O. Rioja Castillo de Haro 75 cl",
+    "price": 3.19,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Vino tinto tempranillo Tamarón 75cl",
+    "price": 3.29,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Aldi",
+    "product": "Vino tinto reserva DOCa Rioja",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Aldi",
+    "product": "Vino tinto biodinámico cabernet sauvignon",
+    "price": 3.79,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Aldi",
+    "product": "Vino tinto mencía selección",
+    "price": 3.99,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Vino tinto roble Gran Closa DO Ribera del Duero",
+    "price": 4.95,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Vino tinto Mucho Más",
+    "price": 4.99,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vino tinto Reserva D.O. Ribera del Duero",
+    "price": 8.49,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vino tinto D.O.C. Rioja",
+    "price": 8.99,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Lidl",
+    "product": "Vino tinto gran reserva D.O. Ribera Duero",
+    "price": 9.99,
+    "unit": "",
+    "search_term": "vino tinto"
+  },
+  {
+    "store": "Aldi",
+    "product": "Yogur natural con grageas de chocolate",
+    "price": 0.66,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Yogur natural 4 x 125 g. Producto Alcampo",
+    "price": 0.69,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Yogur natural Hacendado",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur natural azucarado 4 u. de 125 g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Dia",
+    "product": "Yogur natural Dia Láctea 6 x 125 g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Dia",
+    "product": "Yogur natural Danone 4 x 120 g",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Yogur natural con azúcar de caña Hacendado",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Dia",
+    "product": "Yogur natural desnatado Dia Láctea 6 x 125 g",
+    "price": 1.05,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Aldi",
+    "product": "Yogur natural",
+    "price": 1.29,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Alcampo",
+    "product": "AUCHAN Yogur natural 8 x 125 g Producto Alcampo.",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur griego natural paq. 4 u.",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Yogur estilo griego Alipende pack 6 natural 750g",
+    "price": 1.45,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Aldi",
+    "product": "Yogur natural al estilo griego",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Alcampo",
+    "product": "DANONE Yogur natural elaborado con fermentos naturales 8 x 120 g.",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Yogur natural la Fageda paq. 4 u. de 125 gr",
+    "price": 1.88,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Yogur La Fageda Pack 4 Sabor Natural",
+    "price": 1.9,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Yogur natural Danone",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Yogur Danone pack 8 natural",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "LA FAGEDA Iogurt natural",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Lidl",
+    "product": "Café natural molido",
+    "price": 2.39,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "LA FAGEDA Iogurt grec de mango i préssec",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Bonpreu",
+    "product": "LA FAGEDA Iogurt grec de stracciatella",
+    "price": 2.75,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Lidl",
+    "product": "Yogurtera con 4 programas",
+    "price": 24.99,
+    "unit": "",
+    "search_term": "yogur natural"
+  },
+  {
+    "store": "Lidl",
+    "product": "Bocaditos en salsa para perro mini",
+    "price": 0.69,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Zanahoria 500g",
+    "price": 0.79,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Aldi",
+    "product": "Zanahoria",
+    "price": 0.89,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Zanahoria",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Dia",
+    "product": "Zanahoria en tiras Dia Vegecampo 180 g",
+    "price": 0.95,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Lidl",
+    "product": "Bocaditos en salsa para perros",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Zanahoria rallada lavada",
+    "price": 1.0,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Dia",
+    "product": "Zanahoria 1 Kg",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Zanahoria 1kg",
+    "price": 1.19,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Zanahorias",
+    "price": 1.2,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Zanahoria en tiras Classic Carrefour 250 g.",
+    "price": 1.3,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Zanahoria Ecológica Carrefour Bio 500 g aprox",
+    "price": 1.6,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Tarrito zanahorias con arroz Hero Solo",
+    "price": 1.65,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Dia",
+    "product": "Batata unidad 800 g aprox.",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Carrefour",
+    "product": "Palitos de zanahoria Carrefour El Mercado vaso 165 g",
+    "price": 2.13,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Zanahoria manojo 700g",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Bizcocho de zanahoria y nueces",
+    "price": 3.15,
+    "unit": "",
+    "search_term": "zanahorias"
+  },
+  {
+    "store": "Lidl",
+    "product": "Natillas sabor vainilla",
+    "price": 0.99,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Néctar de naranja Granini",
+    "price": 1.4,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Aldi",
+    "product": "Zumo exprimido de naranja sin pulpa",
+    "price": 1.79,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Zumo pura naranja Hacendado",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Zumo pura naranja con pulpa Hacendado",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Dia",
+    "product": "Zumo de naranja sin pulpa Dia Saborfera 1 L",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Dia",
+    "product": "Zumo de naranja con pulpa Dia Saborfera 1 L",
+    "price": 1.85,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Zumo de naranja exprimida y zanahoria",
+    "price": 1.9,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Bonarea",
+    "product": "Zumo de naranja exprimida",
+    "price": 1.95,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Aldi",
+    "product": "Zumo exprimido  de naranja con pulpa",
+    "price": 1.99,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Dia",
+    "product": "Zumo de naranja 100% exprimido sin pulpa Dia Saborfera 1 L",
+    "price": 2.1,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Aldi",
+    "product": "Zumo de naranja concentrado",
+    "price": 2.59,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Zumo de naranja exprimido natural botella 0,5l",
+    "price": 3.95,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Naranja de zumo malla 5kg",
+    "price": 5.75,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Mercadona",
+    "product": "Zumo de naranja recién exprimido Hacendado",
+    "price": 5.95,
+    "unit": "",
+    "search_term": "zumo de naranja"
+  },
+  {
+    "store": "Ahorramas",
+    "product": "Zumo de naranja exprimido natural botella 1l",
+    "price": 5.95,
+    "unit": "",
+    "search_term": "zumo de naranja"
   }
 ]
